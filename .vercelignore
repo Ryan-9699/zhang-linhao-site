@@ -1,0 +1,7 @@
+node_modules
+.next
+.git
+.DS_Store
+
+# Keep the deployed site light: originals stay local/backed up.
+public/uploads/**
