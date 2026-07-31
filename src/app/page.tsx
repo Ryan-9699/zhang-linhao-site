@@ -1,6 +1,6 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import PortfolioSite from "@/components/PortfolioSite";
+import HaylerInspiredSite from "@/components/HaylerInspiredSite";
 import type { ContentData } from "@/types/content";
 
 export const dynamic = "force-dynamic";
@@ -13,5 +13,5 @@ async function loadContent() {
 
 export default async function Home() {
   const content = await loadContent();
-  return <PortfolioSite initialContent={content} />;
+  return <HaylerInspiredSite initialContent={content} />;
 }

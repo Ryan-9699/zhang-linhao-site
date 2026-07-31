@@ -1,0 +1,772 @@
+/* Last-loaded visual fixes for the portfolio pages. Keep this file after globals.css. */
+.hyl-site {
+  background:
+    radial-gradient(circle at 14% 0%, rgba(149, 222, 255, 0.3), transparent 28vw),
+    radial-gradient(circle at 88% 8%, rgba(255, 224, 169, 0.2), transparent 30vw),
+    radial-gradient(circle at 64% 36%, rgba(183, 224, 255, 0.28), transparent 34vw),
+    linear-gradient(180deg, #fbfdff 0%, #eef8ff 42%, #f8fcff 100%) !important;
+}
+
+.hyl-site :where(#experience, #works-index, #works, #skills, #contact) {
+  background:
+    radial-gradient(circle at 10% 12%, rgba(143, 218, 255, 0.16), transparent 28vw),
+    radial-gradient(circle at 88% 18%, rgba(255, 221, 169, 0.14), transparent 30vw),
+    linear-gradient(180deg, rgba(248, 253, 255, 0.92), rgba(238, 248, 255, 0.88)) !important;
+}
+
+.hyl-site :where(#experience, #works-index, #works, #skills, #contact, #work-aigc-video, #work-commercial-film, #work-large-projects, #work-new-media) {
+  scroll-margin-top: clamp(92px, 9vh, 124px) !important;
+}
+
+/* Motion pass: calm glassy movement that follows the cover direction. */
+.hyl-site {
+  --hyl-motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.hyl-site .hyl-nav {
+  animation: hyl-nav-drop 820ms var(--hyl-motion-ease) both !important;
+}
+
+.hyl-site .hyl-atmosphere span {
+  animation: hyl-soft-drift 22s ease-in-out infinite alternate !important;
+}
+
+.hyl-site .hyl-atmosphere span:nth-child(2) {
+  animation-duration: 28s !important;
+  animation-delay: -8s !important;
+}
+
+.hyl-site .hyl-atmosphere span:nth-child(3) {
+  animation-duration: 32s !important;
+  animation-delay: -15s !important;
+}
+
+.hyl-site :where(.hyl-profile-poster, .hyl-capability-list, .hyl-timeline, .hyl-work, .hyl-skill-panel, .hyl-contact-card) {
+  will-change: transform, box-shadow !important;
+  transition:
+    transform 420ms var(--hyl-motion-ease),
+    box-shadow 420ms var(--hyl-motion-ease),
+    border-color 320ms ease,
+    background 420ms ease !important;
+}
+
+.hyl-site #profile .hyl-profile-poster {
+  animation: hyl-poster-breathe 9s ease-in-out infinite !important;
+}
+
+.hyl-site :where(.hyl-work-media, .hyl-case-media, .hyl-case-inline-media figure) {
+  transition:
+    transform 620ms var(--hyl-motion-ease),
+    box-shadow 420ms var(--hyl-motion-ease),
+    filter 420ms ease !important;
+}
+
+.hyl-site :where(.hyl-work-media img, .hyl-work-media video, .hyl-case-media img, .hyl-case-media video, .hyl-case-inline-media img, .hyl-case-inline-media video) {
+  transition: transform 900ms var(--hyl-motion-ease), filter 420ms ease !important;
+}
+
+.hyl-site :where(.hyl-work:hover .hyl-work-media, .hyl-work:focus-within .hyl-work-media, .hyl-case-inline-media figure:hover) {
+  transform: translateY(-4px) scale(1.012) !important;
+  box-shadow: 0 28px 70px rgba(48, 108, 164, 0.18) !important;
+}
+
+.hyl-site :where(.hyl-work:hover .hyl-work-media img, .hyl-work:hover .hyl-work-media video, .hyl-case-inline-media figure:hover img, .hyl-case-inline-media figure:hover video) {
+  transform: scale(1.035) !important;
+}
+
+.hyl-site :where(.hyl-case-trigger, .hyl-case-next button, .hyl-contact-card a, .hyl-contact-card span, .hyl-archive-more button) {
+  position: relative !important;
+  overflow: hidden !important;
+  transition:
+    transform 240ms var(--hyl-motion-ease),
+    box-shadow 260ms ease,
+    border-color 240ms ease,
+    background 260ms ease !important;
+}
+
+.hyl-site :where(.hyl-case-trigger, .hyl-case-next button, .hyl-contact-card a, .hyl-contact-card span, .hyl-archive-more button)::after {
+  content: "" !important;
+  position: absolute !important;
+  inset: -120% auto -120% -40% !important;
+  width: 36% !important;
+  pointer-events: none !important;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.42), transparent) !important;
+  transform: skewX(-18deg) translateX(-180%) !important;
+  transition: transform 720ms var(--hyl-motion-ease) !important;
+}
+
+.hyl-site :where(.hyl-case-trigger, .hyl-case-next button, .hyl-contact-card a, .hyl-contact-card span, .hyl-archive-more button):hover {
+  transform: translateY(-2px) !important;
+}
+
+.hyl-site :where(.hyl-case-trigger, .hyl-case-next button, .hyl-contact-card a, .hyl-contact-card span, .hyl-archive-more button):hover::after {
+  transform: skewX(-18deg) translateX(560%) !important;
+}
+
+.hyl-site #works-index .hyl-capability {
+  transition:
+    flex-basis 380ms var(--hyl-motion-ease),
+    min-height 380ms var(--hyl-motion-ease),
+    padding 380ms var(--hyl-motion-ease),
+    background 320ms ease,
+    box-shadow 320ms ease,
+    transform 320ms var(--hyl-motion-ease) !important;
+}
+
+.hyl-site #works-index .hyl-capability:hover,
+.hyl-site #works-index .hyl-capability:focus-within {
+  transform: translateX(6px) !important;
+}
+
+.hyl-site :where(.hyl-timeline article:hover, .hyl-skill-panel:hover, .hyl-contact-card:hover) {
+  transform: translateY(-6px) !important;
+}
+
+@keyframes hyl-nav-drop {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@keyframes hyl-soft-drift {
+  from {
+    transform: translate3d(-1.5%, -1%, 0) scale(1);
+  }
+  to {
+    transform: translate3d(2%, 1.5%, 0) scale(1.05);
+  }
+}
+
+@keyframes hyl-poster-breathe {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.006);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hyl-site,
+  .hyl-site *,
+  .hyl-site *::before,
+  .hyl-site *::after {
+    animation: none !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Profile poster: keep the generated page visible inside one desktop viewport. */
+.hyl-site #profile.hyl-intro {
+  min-height: 100dvh !important;
+  display: grid !important;
+  place-items: center !important;
+  padding: clamp(68px, 8vh, 88px) clamp(14px, 2vw, 34px) clamp(30px, 4vh, 48px) !important;
+  overflow: visible !important;
+}
+
+.hyl-site #profile .hyl-profile-poster {
+  width: min(94vw, 1540px) !important;
+  max-height: calc(100dvh - 102px) !important;
+  margin: 0 auto !important;
+}
+
+.hyl-site #profile .hyl-profile-poster img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: calc(100dvh - 102px) !important;
+  object-fit: contain !important;
+}
+
+/* Catalog: compact folder index, not a full-screen poster. */
+.hyl-site #works-index {
+  min-height: 100dvh !important;
+  display: grid !important;
+  place-items: center !important;
+  padding: clamp(34px, 5vh, 56px) clamp(18px, 3vw, 48px) clamp(34px, 5vh, 62px) !important;
+  overflow: visible !important;
+}
+
+.hyl-site #works-index .hyl-pinned-title {
+  display: none !important;
+}
+
+.hyl-site #works-index .hyl-capability-list {
+  width: min(94vw, 1680px) !important;
+  height: auto !important;
+  min-height: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: visible !important;
+  border: 1px solid rgba(76, 139, 195, 0.24) !important;
+  border-radius: clamp(20px, 1.8vw, 28px) !important;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.94), rgba(238, 248, 255, 0.82)),
+    radial-gradient(circle at 88% 12%, rgba(92, 176, 255, 0.12), transparent 36%) !important;
+  box-shadow:
+    0 28px 72px rgba(54, 103, 151, 0.13),
+    inset 0 1px 0 rgba(255, 255, 255, 0.94) !important;
+  backdrop-filter: blur(22px) !important;
+}
+
+.hyl-site #works-index .hyl-catalog-head {
+  position: relative !important;
+  flex: 0 0 clamp(138px, 15dvh, 164px) !important;
+  height: auto !important;
+  min-height: 0 !important;
+  display: block !important;
+  padding: 0 clamp(26px, 3.4vw, 48px) !important;
+  overflow: hidden !important;
+  border-bottom: 1px solid rgba(76, 139, 195, 0.16) !important;
+  color: rgba(46, 88, 130, 0.7) !important;
+}
+
+.hyl-site #works-index .hyl-catalog-head::before {
+  content: "(目录)" !important;
+  position: absolute !important;
+  left: clamp(26px, 3.4vw, 48px) !important;
+  top: clamp(22px, 2.4vh, 30px) !important;
+  color: #216fdd !important;
+  font-size: clamp(1.45rem, 2.3vw, 2.45rem) !important;
+  font-weight: 950 !important;
+  line-height: 1 !important;
+}
+
+.hyl-site #works-index .hyl-catalog-head strong {
+  position: absolute !important;
+  left: clamp(26px, 3.4vw, 48px) !important;
+  bottom: clamp(22px, 2.4vh, 30px) !important;
+  color: #2d75dd !important;
+  font-size: clamp(2.15rem, 3.55vw, 4.1rem) !important;
+  font-weight: 900 !important;
+  line-height: 0.96 !important;
+  transform: none !important;
+}
+
+.hyl-site #works-index .hyl-catalog-head span {
+  position: absolute !important;
+  top: clamp(26px, 2.8vh, 34px) !important;
+  font-size: clamp(0.68rem, 0.78vw, 0.84rem) !important;
+  letter-spacing: 0.04em !important;
+  white-space: nowrap !important;
+}
+
+.hyl-site #works-index .hyl-catalog-head span:nth-child(1) {
+  left: 34% !important;
+}
+
+.hyl-site #works-index .hyl-catalog-head span:nth-child(2) {
+  left: 56% !important;
+}
+
+.hyl-site #works-index .hyl-catalog-head span:nth-child(3) {
+  left: 74% !important;
+}
+
+.hyl-site #works-index .hyl-capability,
+.hyl-site #works-index .hyl-capability:first-of-type {
+  flex: 0 0 clamp(82px, 9.2dvh, 100px) !important;
+  min-height: clamp(82px, 9.2dvh, 100px) !important;
+  height: auto !important;
+  display: grid !important;
+  grid-template-columns: clamp(44px, 4.2vw, 62px) minmax(0, 1fr) !important;
+  grid-template-rows: auto auto auto !important;
+  align-content: center !important;
+  align-items: start !important;
+  gap: 6px clamp(16px, 2vw, 28px) !important;
+  padding: clamp(18px, 2vw, 24px) clamp(26px, 3.4vw, 48px) !important;
+  overflow: visible !important;
+  color: #071832 !important;
+  background: rgba(255, 255, 255, 0.48) !important;
+  border-top: 1px solid rgba(76, 139, 195, 0.14) !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+.hyl-site #works-index .hyl-capability:first-of-type {
+  border-top: 0 !important;
+}
+
+.hyl-site #works-index .hyl-capability:hover,
+.hyl-site #works-index .hyl-capability:focus,
+.hyl-site #works-index .hyl-capability:focus-within {
+  flex-basis: clamp(236px, 27dvh, 292px) !important;
+  flex-grow: 0 !important;
+  min-height: clamp(236px, 27dvh, 292px) !important;
+  align-content: start !important;
+  padding-top: clamp(24px, 2.4vw, 34px) !important;
+  padding-bottom: clamp(24px, 2.4vw, 34px) !important;
+  color: #071832 !important;
+  background:
+    linear-gradient(135deg, rgba(226, 246, 255, 0.88), rgba(255, 255, 255, 0.76)),
+    radial-gradient(circle at 82% 18%, rgba(44, 142, 235, 0.14), transparent 36%) !important;
+  box-shadow:
+    0 20px 56px rgba(43, 124, 206, 0.14),
+    inset 0 0 0 1px rgba(50, 144, 233, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.94) !important;
+  outline: none !important;
+}
+
+.hyl-site #works-index .hyl-capability > span {
+  grid-column: 1 !important;
+  grid-row: 1 / span 3 !important;
+  align-self: start !important;
+  padding-top: 0.2em !important;
+  color: rgba(19, 46, 78, 0.58) !important;
+  font-size: clamp(0.9rem, 1.05vw, 1.08rem) !important;
+}
+
+.hyl-site #works-index .hyl-capability h2 {
+  grid-column: 2 !important;
+  grid-row: 1 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #071832 !important;
+  font-size: clamp(1.72rem, 2.55vw, 3.05rem) !important;
+  line-height: 1.02 !important;
+  white-space: normal !important;
+  transition: color 180ms ease !important;
+}
+
+.hyl-site #works-index .hyl-capability:hover h2,
+.hyl-site #works-index .hyl-capability:focus h2,
+.hyl-site #works-index .hyl-capability:focus-within h2 {
+  color: #2178df !important;
+  font-size: clamp(2.05rem, 3vw, 4.2rem) !important;
+}
+
+.hyl-site #works-index .hyl-capability:first-of-type h2::after {
+  content: "SELF-INTRODUCTION" !important;
+  display: block !important;
+  margin-top: 4px !important;
+  color: rgba(35, 115, 220, 0.72) !important;
+  font-size: clamp(0.86rem, 1.2vw, 1.2rem) !important;
+  line-height: 1 !important;
+  letter-spacing: 0.03em !important;
+}
+
+.hyl-site #works-index .hyl-folder-preview {
+  display: none !important;
+}
+
+.hyl-site #works-index .hyl-capability p,
+.hyl-site #works-index .hyl-capability > div:not(.hyl-folder-preview) {
+  grid-column: 2 !important;
+  max-width: min(1260px, 76vw) !important;
+  max-height: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+  transform: translateY(6px) !important;
+  transition: opacity 180ms ease, transform 180ms ease, max-height 180ms ease !important;
+}
+
+.hyl-site #works-index .hyl-capability p {
+  grid-row: 2 !important;
+  display: -webkit-box !important;
+  color: #31536f !important;
+  font-size: clamp(0.92rem, 0.95vw, 1.08rem) !important;
+  font-weight: 780 !important;
+  line-height: 1.45 !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-line-clamp: 2 !important;
+}
+
+.hyl-site #works-index .hyl-capability > div:not(.hyl-folder-preview) {
+  grid-row: 3 !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+}
+
+.hyl-site #works-index .hyl-capability:hover p,
+.hyl-site #works-index .hyl-capability:focus p,
+.hyl-site #works-index .hyl-capability:focus-within p {
+  max-height: 2.95em !important;
+  margin-top: 14px !important;
+  overflow: hidden !important;
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.hyl-site #works-index .hyl-capability:hover > div:not(.hyl-folder-preview),
+.hyl-site #works-index .hyl-capability:focus > div:not(.hyl-folder-preview),
+.hyl-site #works-index .hyl-capability:focus-within > div:not(.hyl-folder-preview) {
+  max-height: 70px !important;
+  margin-top: 16px !important;
+  overflow: visible !important;
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.hyl-site #works-index .hyl-capability em {
+  min-height: 30px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  border: 1px solid rgba(68, 140, 207, 0.26) !important;
+  border-radius: 999px !important;
+  background: rgba(226, 243, 255, 0.78) !important;
+  color: #265273 !important;
+  padding: 0 0.85em !important;
+  font-size: clamp(0.72rem, 0.82vw, 0.84rem) !important;
+}
+
+/* Skills: readable light glass cards. */
+.hyl-site #skills,
+.hyl-site #skills.hyl-skills {
+  background:
+    radial-gradient(circle at 8% 8%, rgba(124, 211, 255, 0.18), transparent 30vw),
+    radial-gradient(circle at 86% 28%, rgba(255, 223, 170, 0.14), transparent 30vw),
+    linear-gradient(180deg, #f7fcff 0%, #eef8ff 100%) !important;
+  color: #071832 !important;
+}
+
+.hyl-site #skills::before,
+.hyl-site #skills::after {
+  opacity: 0.06 !important;
+}
+
+.hyl-site #skills .hyl-skills-inner::before,
+.hyl-site #skills .hyl-skills-inner::after {
+  opacity: 0.06 !important;
+}
+
+.hyl-site #skills .hyl-section-head,
+.hyl-site #skills .hyl-skills-inner > .hyl-section-head {
+  opacity: 1 !important;
+  filter: none !important;
+  mix-blend-mode: normal !important;
+}
+
+.hyl-site #skills :where(.hyl-section-head p, .hyl-section-head h2, .hyl-skill-panel, .hyl-skill-panel > span, .hyl-skill-panel h3, .hyl-skill-panel p, .hyl-skill-panel em) {
+  opacity: 1 !important;
+  filter: none !important;
+  mix-blend-mode: normal !important;
+  text-shadow: none !important;
+}
+
+.hyl-site #skills .hyl-section-head p,
+.hyl-site #skills .hyl-skill-panel > span {
+  color: #1589f2 !important;
+}
+
+.hyl-site #skills .hyl-section-head h2,
+.hyl-site #skills .hyl-skill-panel h3 {
+  color: #071832 !important;
+}
+
+.hyl-site #skills .hyl-section-head h2 {
+  color: #12243b !important;
+}
+
+.hyl-site #skills .hyl-skill-cloud {
+  border: 1px solid rgba(70, 133, 194, 0.24) !important;
+  border-radius: clamp(22px, 2vw, 32px) !important;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.9), rgba(230, 247, 255, 0.7)) !important;
+  box-shadow:
+    0 28px 76px rgba(58, 103, 150, 0.14),
+    inset 0 1px 0 rgba(255, 255, 255, 0.92) !important;
+  overflow: visible !important;
+}
+
+.hyl-site #skills .hyl-skill-panel,
+.hyl-site #skills .hyl-skill-panel.hyl-reveal {
+  background: rgba(255, 255, 255, 0.82) !important;
+  border: 1px solid rgba(66, 136, 202, 0.22) !important;
+  color: #071832 !important;
+  box-shadow:
+    0 16px 38px rgba(60, 112, 158, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.94) !important;
+}
+
+.hyl-site #skills .hyl-skill-panel p {
+  color: #34536f !important;
+}
+
+.hyl-site #skills .hyl-skill-panel em {
+  background: rgba(221, 241, 255, 0.9) !important;
+  border-color: rgba(68, 140, 207, 0.28) !important;
+  color: #235173 !important;
+}
+
+/* Case detail modal: fixed viewport layer with its own scroll, never clipped by the page shell. */
+body.hyl-case-open .hyl-site {
+  overflow: visible !important;
+}
+
+body.hyl-case-open {
+  overflow: hidden !important;
+}
+
+.hyl-site .hyl-case-modal {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 999 !important;
+  display: block !important;
+  width: 100vw !important;
+  height: 100dvh !important;
+  max-height: 100dvh !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  overscroll-behavior: contain !important;
+  scroll-behavior: auto !important;
+  background:
+    radial-gradient(circle at 14% 8%, rgba(122, 213, 255, 0.22), transparent 30vw),
+    radial-gradient(circle at 88% 14%, rgba(255, 220, 165, 0.16), transparent 32vw),
+    linear-gradient(180deg, rgba(239, 249, 255, 0.78), rgba(218, 237, 249, 0.7)) !important;
+  backdrop-filter: blur(12px) !important;
+}
+
+.hyl-site .hyl-case-backdrop {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 0 !important;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.42), rgba(202, 232, 251, 0.52)),
+    rgba(235, 247, 255, 0.28) !important;
+  backdrop-filter: blur(16px) saturate(1.08) !important;
+}
+
+.hyl-site .hyl-case-panel {
+  position: relative !important;
+  z-index: 1 !important;
+  width: min(94vw, 1720px) !important;
+  min-height: auto !important;
+  margin: clamp(74px, 9vh, 104px) auto clamp(42px, 6vh, 76px) !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(88, 145, 201, 0.28) !important;
+  border-radius: clamp(18px, 1.7vw, 28px) !important;
+  background:
+    radial-gradient(circle at 16% -4%, rgba(63, 164, 247, 0.18), transparent 34%),
+    radial-gradient(circle at 84% 8%, rgba(255, 220, 162, 0.12), transparent 30%),
+    linear-gradient(180deg, rgba(251, 254, 255, 0.94), rgba(229, 244, 255, 0.9)) !important;
+  color: #071832 !important;
+  box-shadow:
+    0 32px 96px rgba(59, 101, 142, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95) !important;
+}
+
+.hyl-site .hyl-case-panel::before,
+.hyl-site .hyl-case-panel::after {
+  content: "" !important;
+  position: absolute !important;
+  pointer-events: none !important;
+}
+
+.hyl-site .hyl-case-panel::before {
+  inset: 0 !important;
+  z-index: 0 !important;
+  background:
+    linear-gradient(90deg, rgba(89, 173, 240, 0.08) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(89, 173, 240, 0.07) 1px, transparent 1px) !important;
+  background-size: 34px 34px !important;
+  opacity: 0.42 !important;
+}
+
+.hyl-site .hyl-case-panel::after {
+  right: -8%;
+  top: -8%;
+  z-index: 0 !important;
+  width: min(42vw, 620px) !important;
+  aspect-ratio: 1 !important;
+  border-radius: 999px !important;
+  background: radial-gradient(circle, rgba(43, 142, 235, 0.16), transparent 62%) !important;
+  filter: blur(6px) !important;
+}
+
+.hyl-site .hyl-case-close {
+  position: fixed !important;
+  right: clamp(18px, 2.2vw, 32px) !important;
+  top: clamp(76px, 8vh, 92px) !important;
+  z-index: 1000 !important;
+}
+
+.hyl-site .hyl-case-media,
+.hyl-site .hyl-case-copy {
+  width: min(100% - clamp(28px, 5vw, 96px), 1580px) !important;
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+.hyl-site .hyl-case-media {
+  margin-top: clamp(24px, 3vw, 48px) !important;
+  padding-top: 0 !important;
+  border: 1px solid rgba(74, 135, 196, 0.26) !important;
+  background: rgba(255, 255, 255, 0.68) !important;
+  box-shadow: 0 24px 64px rgba(36, 84, 128, 0.2) !important;
+}
+
+.hyl-site .hyl-case-media::before,
+.hyl-site .hyl-case-media::after,
+.hyl-site .hyl-case-inline-media figure::after {
+  display: none !important;
+}
+
+.hyl-site .hyl-case-media > :is(img, video),
+.hyl-site .hyl-case-media img,
+.hyl-site .hyl-case-media video,
+.hyl-site .hyl-case-media .hyl-project-video,
+.hyl-site .hyl-case-inline-media img,
+.hyl-site .hyl-case-inline-media video {
+  filter: none !important;
+  opacity: 1 !important;
+  mix-blend-mode: normal !important;
+}
+
+.hyl-site .hyl-case-copy {
+  padding-bottom: clamp(70px, 8vw, 120px) !important;
+}
+
+.hyl-site .hyl-case-hero-meta {
+  color: rgba(224, 243, 255, 0.74) !important;
+}
+
+.hyl-site .hyl-case-copy > span,
+.hyl-site .hyl-case-block > span,
+.hyl-site .hyl-case-next > span,
+.hyl-site .hyl-case-process-cards span {
+  color: #2276d7 !important;
+}
+
+.hyl-site .hyl-case-copy h2,
+.hyl-site .hyl-case-copy h2 span,
+.hyl-site .hyl-case-block h3,
+.hyl-site .hyl-case-next strong,
+.hyl-site .hyl-case-process-cards h3,
+.hyl-site .hyl-case-scoreboard strong {
+  color: #071832 !important;
+}
+
+.hyl-site .hyl-case-copy p,
+.hyl-site .hyl-case-copy strong,
+.hyl-site .hyl-case-copy li,
+.hyl-site .hyl-case-block p,
+.hyl-site .hyl-case-process-cards p,
+.hyl-site .hyl-case-scoreboard span,
+.hyl-site .hyl-case-next em {
+  color: #31516d !important;
+  text-shadow: none !important;
+}
+
+.hyl-site .hyl-case-copy > strong,
+.hyl-site .hyl-case-block,
+.hyl-site .hyl-case-inline-media,
+.hyl-site .hyl-case-next {
+  border-color: rgba(75, 139, 199, 0.18) !important;
+}
+
+.hyl-site .hyl-case-copy > strong {
+  display: block !important;
+  border: 1px solid rgba(75, 139, 199, 0.16) !important;
+  border-radius: 16px !important;
+  background: rgba(255, 255, 255, 0.62) !important;
+  padding: clamp(18px, 2.2vw, 28px) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.82) !important;
+}
+
+.hyl-site .hyl-case-block,
+.hyl-site .hyl-case-inline-media,
+.hyl-site .hyl-case-next {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.72), rgba(229, 244, 255, 0.46)),
+    radial-gradient(circle at 92% 10%, rgba(73, 163, 242, 0.08), transparent 32%) !important;
+  border-radius: 18px !important;
+  border: 1px solid rgba(75, 139, 199, 0.16) !important;
+  margin-block: clamp(18px, 2.8vw, 34px) !important;
+  padding: clamp(24px, 3.4vw, 46px) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.82) !important;
+}
+
+.hyl-site .hyl-case-copy > div {
+  margin-bottom: clamp(24px, 4vw, 46px) !important;
+}
+
+.hyl-site .hyl-case-chip,
+.hyl-site .hyl-case-copy em {
+  border-color: rgba(44, 126, 217, 0.28) !important;
+  background: rgba(224, 242, 255, 0.78) !important;
+  color: #235173 !important;
+}
+
+.hyl-site .hyl-case-inline-media figure {
+  border-color: rgba(75, 139, 199, 0.22) !important;
+  background: rgba(245, 251, 255, 0.76) !important;
+  box-shadow: 0 18px 48px rgba(52, 101, 151, 0.14) !important;
+}
+
+.hyl-site .hyl-case-inline-media figcaption {
+  background: rgba(245, 251, 255, 0.92) !important;
+  border-color: rgba(75, 139, 199, 0.16) !important;
+}
+
+.hyl-site .hyl-case-inline-media figcaption strong {
+  color: #071832 !important;
+}
+
+.hyl-site .hyl-case-inline-media figcaption span {
+  color: #4b647d !important;
+}
+
+.hyl-site .hyl-case-scoreboard div,
+.hyl-site .hyl-case-process-cards div,
+.hyl-site .hyl-case-gallery-card {
+  border-color: rgba(75, 139, 199, 0.18) !important;
+  background: rgba(255, 255, 255, 0.64) !important;
+  box-shadow: 0 14px 36px rgba(52, 101, 151, 0.1) !important;
+}
+
+.hyl-site .hyl-case-next button {
+  border-color: rgba(44, 126, 217, 0.28) !important;
+  background: linear-gradient(135deg, rgba(229, 244, 255, 0.9), rgba(255, 255, 255, 0.72)) !important;
+  color: #071832 !important;
+}
+
+@media (max-width: 980px) {
+  .hyl-site #works-index {
+    min-height: auto !important;
+    padding: 76px 14px 42px !important;
+  }
+
+  .hyl-site #works-index .hyl-capability-list {
+    width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  .hyl-site #works-index .hyl-catalog-head {
+    flex-basis: auto !important;
+    grid-template-columns: 1fr !important;
+    padding: 24px 22px !important;
+  }
+
+  .hyl-site #works-index .hyl-capability,
+  .hyl-site #works-index .hyl-capability:first-of-type,
+  .hyl-site #works-index .hyl-capability:hover,
+  .hyl-site #works-index .hyl-capability:focus,
+  .hyl-site #works-index .hyl-capability:focus-within {
+    flex-basis: auto !important;
+    min-height: auto !important;
+    grid-template-columns: 40px minmax(0, 1fr) !important;
+    padding: 22px 20px 26px !important;
+  }
+
+  .hyl-site #works-index .hyl-capability p,
+  .hyl-site #works-index .hyl-capability > div:not(.hyl-folder-preview),
+  .hyl-site #works-index .hyl-capability:hover p,
+  .hyl-site #works-index .hyl-capability:focus p,
+  .hyl-site #works-index .hyl-capability:focus-within p,
+  .hyl-site #works-index .hyl-capability:hover > div:not(.hyl-folder-preview),
+  .hyl-site #works-index .hyl-capability:focus > div:not(.hyl-folder-preview),
+  .hyl-site #works-index .hyl-capability:focus-within > div:not(.hyl-folder-preview) {
+    max-height: none !important;
+    max-width: none !important;
+    overflow: visible !important;
+    opacity: 1 !important;
+  }
+}

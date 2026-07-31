@@ -20,7 +20,7 @@ export default function StoredImage({
   alt = "",
   sizes = "720px",
   priority = false,
-  quality = 72,
+  quality = 75,
   ...props
 }: StoredImageProps) {
   const storedRef = isStoredImageRef(src) ? src : "";
@@ -64,6 +64,10 @@ export default function StoredImage({
 
   if (resolvedSrc.startsWith("blob:") || resolvedSrc.startsWith("data:")) {
     return <img {...props} src={resolvedSrc} alt={alt} loading="lazy" decoding="async" />;
+  }
+
+  if (/\.svg(\?.*)?$/i.test(resolvedSrc)) {
+    return <img {...props} src={resolvedSrc} alt={alt} loading={priority ? "eager" : "lazy"} decoding="async" />;
   }
 
   return (

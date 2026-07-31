@@ -23,6 +23,13 @@
 # local original uploads are preserved in archive backups; Git keeps optimized webp assets.
 /public/uploads/
 
+# local Codex/agent workspace metadata
+/.agents/
+/.impeccable/
+
+# keep the repo light: only explicitly referenced showcase videos are force-added.
+/public/videos/
+
 # misc
 .DS_Store
 *.pem
@@ -42,3 +49,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local site export packages
+site-*.zip

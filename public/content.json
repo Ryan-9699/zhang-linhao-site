@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "ZHANG LINHAO",
-    "author": "张林浩 / 视觉技术专家",
+    "author": "张林浩 / AI视频创意设计 / 后期制作",
     "logoIcon": "Flame"
   },
   "profile": {
@@ -9,141 +9,188 @@
     "gender": "男",
     "age": "26岁",
     "phone": "178-6420-7579",
-    "email": "1261250708@QQ.com",
+    "email": "1261250708@qq.com",
     "degree": "中国传媒大学 本科",
-    "experience": "6年资深经验",
-    "role": "视觉技术专家（直播技术 & 影像摄影）",
-    "avatar": "/optimized-uploads/1779895813845-5483f04c-333d-46f1-bf7e-d4257e458bbc.webp",
+    "experience": "6年视频制作经验",
+    "role": "AI视频创意设计师 / 后期制作 / 短视频剪辑包装",
+    "avatar": "/uploads/1782960804787-0aa4898b-a2a1-49c8-9b12-9fa47864d42a.png",
     "salary": "上海",
     "city": "北京",
-    "summary": "摄制与技术双重驱动，擅长大型直播系统架构、电影级影像采集、多机位色彩管理和高可靠信号传输。",
+    "summary": "具备视频后期制作、影视摄影与 AIGC 内容落地经验，擅长从脚本拆解、分镜设计、素材生成到剪辑包装、平台成片交付的完整制作流程。",
     "metrics": [
       {
-        "value": "3106亿",
-        "label": "巴黎奥运相关内容曝光"
+        "value": "6年+",
+        "label": "视频制作与影视摄影经验"
       },
       {
-        "value": "47.5亿",
-        "label": "奥运直播间播放量"
-      },
-      {
-        "value": "408小时",
-        "label": "主会场长周期不断播"
+        "value": "200+",
+        "label": "精品课程录制执行"
       },
       {
         "value": "600w+",
-        "label": "网易有道课程销售支撑"
+        "label": "课程销售项目支撑"
+      },
+      {
+        "value": "S级",
+        "label": "大厂内容项目经验"
       },
       {
         "value": "100+",
-        "label": "标准化讲师直播间搭建"
+        "label": "讲师内容录制场景搭建"
       },
       {
         "value": "20w+",
         "label": "大型校招直播观看"
-      },
-      {
-        "value": "200+",
-        "label": "课程录制执行节数"
-      },
-      {
-        "value": "0事故",
-        "label": "S级直播重大技术事故"
       }
     ],
     "advantages": [
-      "精通大型直播系统架构设计，熟练操作 BMD 4K/8K、Sony 切换台及 Yamaha TF/QL 数字调音台。",
-      "具备巴黎奥运会、周杰伦直播等千万级并发项目零失误执行经验。",
-      "6年资深摄影经验，精通 ARRI、RED、SONY 电影机系统，擅长多机位色彩一致性校准与灯光动态范围控制。",
-      "深度掌握 LiveU、TVU 远程回传及 NDI/SRT/Dante 等 IP 化协议，解决复杂环境下的低延迟传输难题。",
-      "历经快手、网易两家大厂，能独立完成技术方案策划、设备链路集成到现场导演执行的全流程闭环。"
+      "6 年视频制作与摄影经验，曾任职快手、网易有道，参与宣传片、TVC、课程视频、短视频、明星内容及大型活动项目，熟悉内容从创意到成片的生产链路。",
+      "具备从前期创意沟通、脚本拆解、分镜规划、现场拍摄、素材管理到剪辑包装、调色修正、成片交付的完整制作能力。",
+      "熟练使用 PR、AE、DaVinci Resolve、PS、C4D、剪映，能独立完成短视频、宣传片、产品视频、活动视频的剪辑包装与多平台输出。",
+      "熟悉 GPT、Claude、Stable Diffusion、ComfyUI、Midjourney、即梦、可灵、Runway，可将 AIGC 用于脚本辅助、爆款拆解、AI 分镜、封面包装、视觉参考和视频素材生成。"
     ]
   },
   "nav": {
     "categories": [
-      "Live Broadcast",
-      "Cinematography",
-      "Signal System",
-      "Project Control",
-      "AIGC Workflow"
+      "AI Video Design",
+      "Script to Video",
+      "Short Drama Logic",
+      "Commercial Film",
+      "Platform Editing"
     ]
   },
   "hero": {
     "titleLines": [
       "张林浩",
-      "Live Tech",
-      "Visual"
+      "Video Edit",
+      ""
     ],
-    "subtitle": "直播技术 / 影像摄影 / 视音频系统",
+    "subtitle": "AI视频创意设计 / 后期制作 / 短视频剪辑包装",
     "searchLabel": "phone",
     "searchValue": "178-6420-7579",
     "exchangeLabel": "email",
-    "exchangeValue": "Beijing · 15-20K",
-    "mainText": "6年资深经验 · 中传本科 · 快手/网易项目视野 · S级直播与电影级影像执行",
+    "exchangeValue": "Beijing · Portfolio",
+    "mainText": "6年视频制作与影视摄影经验 · 快手/网易项目经验 · 熟悉脚本拆解、分镜设计、AIGC素材生成、剪辑包装与平台成片交付",
     "tagText": "Live\nVisual",
-    "motto": "高可靠\n零事故",
-    "bottomLeft": "SIGNAL\nCAMERA\nSYSTEM",
-    "arcText": "Live Broadcast Technology and Cinematography"
+    "motto": "剪辑节奏\n画面质感",
+    "bottomLeft": "EDIT\nAIGC\nFILM",
+    "arcText": "Post Production and AI Video Making"
   },
   "catalog": {
     "title": "RESUME",
     "categories": [
       {
         "id": "01",
-        "name": "直播技术",
+        "name": "视频剪辑",
         "items": [
-          "S级直播",
-          "系统架构",
-          "导播链路"
+          "脚本拆解",
+          "镜头组接",
+          "节奏优化"
         ],
-        "color": "#00E6FF"
+        "color": "#FF4F9A"
       },
       {
         "id": "02",
-        "name": "影像摄影",
+        "name": "AIGC视频",
         "items": [
-          "电影机系统",
-          "灯光控制",
-          "多机位色彩"
+          "AI分镜",
+          "视觉参考",
+          "视频生成"
         ],
-        "color": "#FF1C8D"
+        "color": "#3157FF"
       },
       {
         "id": "03",
-        "name": "信号传输",
+        "name": "短剧/爆款",
         "items": [
-          "LiveU/TVU",
-          "NDI/SRT/Dante",
-          "远程回传"
+          "爆款复刻",
+          "剧情节奏",
+          "冲突强化"
         ],
-        "color": "#F7FF28"
+        "color": "#D7FF64"
       },
       {
         "id": "04",
-        "name": "项目统筹",
+        "name": "成片交付",
         "items": [
-          "巴黎奥运会",
-          "周杰伦之夜",
-          "快手年度盛典"
+          "字幕包装",
+          "调色修正",
+          "平台适配"
         ],
         "color": "#FF7A45"
       }
     ]
   },
+  "sectionCopy": {
+    "experienceTitle": "现场拍摄  AI 视频制作",
+    "worksTitle": "项目混剪与重点案例",
+    "archiveTitle": "项目图片瀑布流展示。",
+    "skillsTitle": "AI 生成工具、镜头语言和后期软件，可以直接进入内容生产。",
+    "contactTitleLines": [
+      "Let's Cut",
+      "Better Visuals"
+    ],
+    "contactText": "AI 视频内容、短剧分镜、宣传片、TVC、活动视频和短视频剪辑包装。"
+  },
+  "capabilities": [
+    {
+      "title": "AIGC 视频",
+      "text": "熟练使用 GPT、Claude、Stable Diffusion、ComfyUI、Midjourney、即梦、可灵、等工具，能够根据主题需求完成从创意、脚本、分镜到 AI 视觉素材和视频片段的制作。将 AIGC 用于视觉参考、AI 封面、短剧分镜、背景延展、画面修复、风格化素材和视频创意预演，提高内容生产效率与画面表现力。",
+      "items": [
+        "AI制作方向",
+        "GPT",
+        "Claude",
+        "Stable Diffusion",
+        "ComfyUI",
+        "Midjourney",
+        "即梦"
+      ]
+    },
+    {
+      "title": "宣传短片制作",
+      "text": "宣传片、TVC、课程产品短片、负责「年度盛典」「带你趣户外」「辽视春晚」等、及 网易有道「讲师介绍片」，能够从前期创意沟通开始制定拍摄方案、镜头语言和场景布局，并完成素材筛选、粗剪精剪、字幕包装、转场设计、调色修正、和成片交付。",
+      "items": [
+        "商业视频方向",
+        "TVC广告",
+        "课程短片",
+        "AI 产品宣发视频"
+      ]
+    },
+    {
+      "title": "大型项目支持",
+      "text": "参与快手「夏季晚会」 「CNY」、「巴黎奥运会」、「成龙」、等大型活动与明星内容项目，具备高压现场下的视觉执行、拍摄剪辑，快速为活动回顾、宣发短片、直播切片、二创素材和平台内容输出提供稳定素材基础。",
+      "items": [
+        "活动视频方向",
+        "S级项目经验",
+        "宣发短片"
+      ]
+    },
+    {
+      "title": "新媒体内容",
+      "text": "面向快手、抖音、视频号、等平台完成短视频剪辑、账号内容包装、封面设计、技术科普、项目花絮和幕后内容制作。拆解爆款短视频的镜头逻辑、脚本结构、画面风格和节奏设计，最终达成项目转化。",
+      "items": [
+        "新媒体方向",
+        "短视频剪辑",
+        "账号内容包装"
+      ]
+    }
+  ],
   "works": [
     {
       "id": "01",
-      "title": "S++ PROJECT",
-      "subtitle": "巴黎奥运会（转播）",
-      "description": "主会场需实现408 小时不间断播出，任何技术中断都会造成严重影响\n跨国赛事信号需通过多线路回传链路，保障信号稳定不中断",
+      "title": "AIGC VIDEO",
+      "subtitle": "AIGC 视频制作 / AI视觉素材",
+      "description": "围绕 AI 视频创作流程，展示从创意 Brief、参考拆解、视觉设定、镜头生成、版本筛选到剪辑包装和成片交付的完整方法。",
       "group": "s-live",
       "image": "/optimized-uploads/1779895813859-cbbbc58a-ea94-4d7a-91f2-a13fc0db31f2.webp",
-      "showcaseTitle": "巴黎奥运会转播",
-      "showcaseDescription": "巴黎奥运会相关直播转播与现场执行画面，周期不断播、多路海外信号回传、主备链路保障和大型赛事内容。",
+      "showcaseTitle": "AIGC 视频制作与视觉素材展示",
+      "showcaseDescription": "配合工作流看板和流程图，可复用的 AI 视频制作方法：先明确创意目标，再拆解世界观、角色、故事和风格，随后进入镜头生成、素材筛选、剪辑包装和成片交付。",
       "tags": [
-        "408小时不断播",
-        "海外回传",
-        "S++专项"
+        "AI分镜",
+        "镜头生成",
+        "素材质检",
+        "剪辑包装",
+        "成片交付"
       ],
       "links": [
         {
@@ -152,18 +199,80 @@
         }
       ],
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779895813864-aebcc5c2-3d28-4df2-a8ae-d63c48ccb1a3.webp",
-        "signal": "/optimized-uploads/1779895813869-32cc588d-4796-49a3-8fa7-42dedc79e49b.webp",
+        "onsite": "/uploads/1783950624243-3050b04b-d517-4e94-bcb7-3c2481558ef1.png",
+        "signal": "/uploads/1783954144795-613eebb0-eb78-40cc-83a4-6a2dc5c34b1c.png",
         "output": "/optimized-uploads/1779895813873-69aafb0e-a673-4a52-9d12-8864d72f0a41.webp"
       },
-      "videoImage": "/optimized-uploads/1779895813878-6823931d-aef2-49a2-8947-577339ef4cd5.webp",
-      "resultText": "主会场实现408 小时不间断零故障播出，创下个人 S 级直播项目最长稳定运行记录\n搭建的跨国信号回传系统，零信号中断事故\n支撑项目总曝光 3106 亿、直播间播放量 47.5 亿，技术保障为内容传播提供了坚实基础"
+      "videoImage": "/uploads/1783263450101-b6c3dcf0-8a52-4c46-b7bf-6e98169b673b.png",
+      "resultText": "从创意拆解到成片交付，全链路 AIGC 视频制作落地。以需求为起点梳理分镜逻辑与视觉标准，多工具协同生成素材，聚焦人物一致性、镜头连贯性与风格统一性做品质管控，最终衔接后期完成成品交付，适配短剧、直播宣发、商业宣传片等场景，实现内容提效与品质可控。",
+      "showcaseVideo": "/videos/1783159091773-72ea9929-3f15-4065-83d0-e957dedea442.mp4",
+      "hidden": false,
+      "caseDetails": [
+        "网易知识付费项目（有道精品课、李永乐、少儿课程）：用 AI 生成分镜参考、讲师宣传封面、课程配图，辅助 TVC、知识短视频前期创意落地。",
+        "快手大型活动项目（年度盛典、巴黎奥运、明星宣发）：借助 AI 批量产出预热短视频视觉素材、活动概念画面，统一全系列宣传物料光影与人物质感。",
+        "结合 PR、AE、Spine 后期流程，把 AI 生成画面、动态片段二次剪辑合成，搭配二维动画做包装，适配短视频快节奏投放，优化视频开篇引流视觉。",
+        "针对不同项目沉淀专属关键词与画面规范：知识类视频侧重简洁理性画面，活动宣传侧重氛围感视觉素材，镜头连贯性。",
+        "持续测试 SD、MJ、可灵、即梦等工具适配商业广告场景，搭建可复用的 AI 素材工作流，提升课程宣传片、直播活动预热片批量制作效率。"
+      ],
+      "workflowImage": "/uploads/ai-workflow-source-collage-white-20260713.png",
+      "caseMethod": {
+        "visualText": "以成片可商用、适配短视频投放为核心，不单一追求单帧画面效果，把 AIGC、实拍、后期剪辑整套流程统一视觉标准：",
+        "metrics": [
+          {
+            "title": "Edit",
+            "label": "剪辑"
+          },
+          {
+            "title": "Visual",
+            "label": "镜头质感"
+          },
+          {
+            "title": "AIGC",
+            "label": "版本效率"
+          }
+        ],
+        "steps": [
+          {
+            "number": "01",
+            "title": "脚本转镜头",
+            "text": "拆解脚本与爆款参考片，结合传播目标输出景别、机位、运动节奏与画面优先级，优化镜头语言标准。\n"
+          },
+          {
+            "number": "02",
+            "title": "生成与质检",
+            "text": "多轮生成后以人物一致性、透视逻辑、光色统一性、镜头衔接性为质检标准，减少抽卡次数，大幅减少后期返工。"
+          },
+          {
+            "number": "03",
+            "title": "剪辑交付",
+            "text": "接入后期时间线打磨开篇钩子、叙事节奏、转场衔接与封面包装，适配短视频平台调性，输出可直接上线的交付成品。\n"
+          }
+        ],
+        "notes": [
+          "结合网易知识课程、快手大型活动两大商业项目，将 AIGC 融入实拍、后期全流程，以增效为核心落地 AI 辅助创作：",
+          "分项目差异化使用 AI：有道课程用 AI 快速产出分镜、宣传封面；快手盛典、奥运项目批量生成氛围素材，补齐实拍缺口。",
+          "AI 素材衔接传统后期：SD/MJ 静态图、可灵 / 即梦动态片段导入 PR/AE/Spine 剪辑调色、叠加二维动画，适配短视频投放节奏。",
+          "建立素材质检标准，把控人物、光影、镜头连贯性，提前筛除失真素材，减少后期返工。",
+          "沉淀各品类专属提示词与视觉模板，批量制作 TVC、宣传短片时可复用，缩短物料迭代周期。",
+          "实拍为主、AI 为辅，关键叙事画面实拍保障质感，AI 负责创意预演与配套素材，兼顾成片品质与业务转化需求。"
+        ]
+      },
+      "caseRole": "AI视觉素材生成 / 分镜概念 / 视频生成 / 剪辑包装",
+      "galleryText": {
+        "onsiteTitle": "工作流看板",
+        "onsiteDescription": "参考拆解 / 镜头版本 / 可用素材管理",
+        "signalTitle": "分镜素材",
+        "signalDescription": "镜头生成 / 角色场景 / 风格统一",
+        "outputTitle": "成片测试",
+        "outputDescription": "剪辑节奏 / 调色包装 / 成片交付"
+      }
     },
     {
       "id": "06",
       "title": "VILLAGE OLYMPICS",
       "subtitle": "贵州村奥会",
       "description": "负责贵州村奥会系列赛事的全流程直播技术执行，在户外复杂环境下搭建多机位拍摄、导播、信号回传及推流监看链路，保障赛事内容稳定、高清输出。",
+      "hidden": true,
       "group": "s-live",
       "image": "/optimized-uploads/1779895813886-efa38810-a0ac-48e9-8409-70245d02c47c.webp",
       "showcaseTitle": "贵州村奥会现场执行展示",
@@ -188,15 +297,19 @@
     },
     {
       "id": "02",
-      "title": "STAR LIVE",
-      "subtitle": "周杰伦海外直播",
-      "description": "周杰伦作为国民级歌手，本次海外直播属于 S++ 级明星项目，面临跨地域信号传输延迟、高并发访问压力、音画同步要求严苛、直播全程零容错等多重挑战",
+      "title": "COMMERCIAL FILM",
+      "subtitle": "TVC / 宣传短片制作",
+      "description": "覆盖选题、分镜、拍摄、剪辑包装和成片输出，可根据需求制定拍摄方案、运镜思路与场景布局，将产品卖点、人物状态、品牌信息和情绪表达整合为清晰的视频叙事。",
       "group": "celebrity",
-      "image": "/optimized-uploads/1779895813917-aab2c10f-0e51-4800-8ab0-cc1ba53bf5e3.webp",
-      "showcaseTitle": "周杰伦之夜明星直播展示",
-      "showcaseDescription": "展示明星级直播画面与双向回传执行成果，呈现高并发场景下的音画同步、画面质感控制和跨地信号稳定切换。",
+      "image": "/uploads/1784173170300-245ef595-56fb-49e3-9953-745613bf4ad3.png",
+      "showcaseTitle": "TVC / 宣传短片制作展示",
+      "showcaseDescription": "展示宣传片、TVC、讲师介绍片、课程产品短片与 AI 产品宣发视频的剪辑节奏、音乐匹配、字幕包装、转场设计、调色修正与基础合成能力。",
       "tags": [
-        "主导跨地域直播全链路技术方案设计，搭建双向信号回传系统，配置主备冗余链路与故障应急流程"
+        "拍摄方案",
+        "剪辑节奏",
+        "调色包装",
+        "商业视频",
+        "成片交付"
       ],
       "links": [
         {
@@ -204,17 +317,73 @@
           "icon": "ExternalLink"
         }
       ],
-      "videoImage": "/optimized-uploads/1779895813932-031180df-ac1c-4868-9ded-e5024b143afd.webp",
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779895813940-36e347fd-2063-4864-93a6-4d1503e1876a.webp",
+        "onsite": "/uploads/tvc-video-poster-20260716.png",
         "signal": "/optimized-uploads/1779895813945-ba2d645f-9ec3-46ce-9bea-948b8c9a6199.webp",
         "output": "/optimized-uploads/1779895813950-16ec6f92-d6bc-4dbe-b8db-5b4d9a294754.webp"
       },
-      "resultText": "实现跨地域直播全程零信号中断、零重大技术事故，保障了高并发场景下的直播稳定播出据、播出结果、传播效果与业务转化说明。",
+      "resultText": "完成快手直播大促活动宣传广告、网易讲师品牌宣传片全流程策划与制作。快手活动短视频投放后站内累计播放超百万，有效拉动直播间引流；网易讲师系列成片用于课程渠道宣发，稳定提升课程曝光与预约转化，适配商业投放需求。",
       "galleryText": {
-        "onsiteTitle": "现场执行",
-        "onsiteDescription": "导播台 / 机位 / 灯光 / 调音台"
-      }
+        "onsiteTitle": "拍摄执行",
+        "onsiteDescription": "场景布置 / 人物状态 / 镜头调度",
+        "signalTitle": "剪辑包装",
+        "signalDescription": "节奏重组 / 字幕信息 / 音乐匹配",
+        "outputTitle": "成片输出",
+        "outputDescription": "宣传版本 / 竖版适配 / 封面画面"
+      },
+      "showcaseVideo": "/videos/1784208386931-659b9b50-d22a-4759-beaf-df519508a029.mp4",
+      "caseRole": "摄影 / 剪辑 / 后期制作 / 成片交付",
+      "caseDetails": [
+        "1.全案策划输出快手直播活动、网易讲师宣传等 TVC 广告脚本与分镜，结合投放平台设计叙事节奏，打造引流开篇钩子。",
+        "2.运用 PR、FCP 完成精细化剪辑、调色与包装，独立产出活动短片、企业内宣、奥运赛事预热等商用成片。",
+        "3.结合 AIGC 工具（SD/MJ/ 可灵 / 即梦）生成配套视觉素材，统一品牌调性，降低物料制作周期。",
+        "4.统筹短视频拍摄、现场调度，负责知识付费、直播测评类广告拍摄落地，账号内容达成百万曝光、涨粉 18w+。",
+        "5.跟进行业内容趋势，迭代优化广告成片，提升直播间客流、课程预约等商业转化指标，高效完成项目交付。"
+      ],
+      "caseMethod": {
+        "visualText": "宣传短片的核心不是堆镜头，而是把产品信息、人物状态和品牌情绪整理成能被观众快速理解的视频叙事。制作时先判断内容主线，再用镜头组接、音乐节奏、字幕包装和调色修正把重点讲清楚。",
+        "metrics": [
+          {
+            "title": "Script",
+            "label": "脚本策划"
+          },
+          {
+            "title": "Edit",
+            "label": "剪辑节奏 "
+          },
+          {
+            "title": "Finish",
+            "label": "包装交付"
+          }
+        ],
+        "steps": [
+          {
+            "number": "01",
+            "title": "卖点拆解",
+            "text": "先明确产品优势、受众痛点和传播目标，整理成可拍摄、可剪辑的内容结构。"
+          },
+          {
+            "number": "02",
+            "title": "镜头组接",
+            "text": "按人物、产品、场景，控制节奏、音乐"
+          },
+          {
+            "number": "03",
+            "title": "包装输出",
+            "text": "完成字幕、转场、调色，让成片适配宣传和平台发布。"
+          }
+        ],
+        "notesTitle": "商业短片制作经验",
+        "notes": [
+          "商业视频要先服务信息表达，再追求画面风格；好看的镜头如果不能支撑卖点，需要在剪辑阶段果断取舍。",
+          "人物介绍、课程宣传和产品短片都需要稳定节奏：开头给明确钩子，中段讲清价值，结尾给行动或记忆点。",
+          "后期不只是剪接，还包括字幕层级、音乐情绪、色彩统一和封面识别度，决定视频最终是否能被传播。"
+        ]
+      },
+      "galleryVideos": {
+        "onsite": "/videos/1784208391826-c33349b7-3a17-4b66-865e-ac6e0a943aa0.mp4"
+      },
+      "workflowImage": "/uploads/1784209710604-9159d667-0ad7-4c8d-be58-e2bc33d19d57.png"
     },
     {
       "id": "03",
@@ -241,7 +410,64 @@
         "signal": "/optimized-uploads/1779895813974-f306803a-9a81-4976-a385-89f281d792f9.webp",
         "output": "/optimized-uploads/1779895813987-e6b5cc17-61c8-4124-bc5a-1a48d77756e7.webp"
       },
-      "resultText": "支撑项目总曝光 6 亿、直播间播放量 2.5 亿"
+      "resultText": "支撑项目总曝光 6 亿、直播间播放量 2.5 亿",
+      "hidden": true,
+      "caseRole": "直播技术统筹 / 系统链路设计 / 大型活动保障",
+      "caseDetails": [
+        "1.参与快手年度盛典直播系统搭建，负责主备链路、导播流程、信号监看和现场执行配合。",
+        "2.根据大型活动高并发和零中断要求，提前设计主/备/流三层冗余方案，降低现场突发风险。",
+        "3.现场保障多机位信号、导播切换、音视频同步和推流稳定，确保大型直播流程顺畅。",
+        "4.结合视觉执行经验关注舞台光线、人物特写和用户端成片效果，让技术保障服务最终观看体验。",
+        "5.项目结束后复盘链路配置、异常处理和现场协作流程，为后续 S 级项目沉淀可复用经验。"
+      ],
+      "caseMethod": {
+        "visualText": "大型直播项目不是单点技术执行，而是链路、画面、现场流程和应急机制的整体管理。技术方案要服务最终用户端画面，同时保证任何异常都有可切换的备份路径。",
+        "metrics": [
+          {
+            "title": "Signal",
+            "label": "链路稳定"
+          },
+          {
+            "title": "Live",
+            "label": "现场协同"
+          },
+          {
+            "title": "Zero",
+            "label": "风险控制"
+          }
+        ],
+        "steps": [
+          {
+            "number": "01",
+            "title": "方案设计",
+            "text": "根据项目规模配置主备链路、推流策略、导播流程和异常切换预案。"
+          },
+          {
+            "number": "02",
+            "title": "现场执行",
+            "text": "监控信号、声音、机位和用户端画面，保证直播流程稳定推进。"
+          },
+          {
+            "number": "03",
+            "title": "复盘沉淀",
+            "text": "记录链路表现、异常处理和协作经验，为后续大型项目复用。"
+          }
+        ],
+        "notesTitle": "大型直播保障经验",
+        "notes": [
+          "直播技术的核心是提前把风险想清楚，现场才有余地处理突发情况。",
+          "大型活动既要保证链路稳定，也要关注用户端看到的画面质感和内容节奏。",
+          "主备方案、监看流程和现场沟通机制，是 S 级项目稳定执行的基础。"
+        ]
+      },
+      "galleryText": {
+        "onsiteTitle": "现场系统",
+        "onsiteDescription": "导播链路 / 信号监看 / 现场执行",
+        "signalTitle": "冗余方案",
+        "signalDescription": "主备链路 / 异常切换 / 推流保障",
+        "outputTitle": "用户端画面",
+        "outputDescription": "大型活动直播 / 舞台画面 / 稳定播出"
+      }
     },
     {
       "id": "04",
@@ -268,17 +494,20 @@
         "signal": "/optimized-uploads/1779895814008-05172581-2556-4be5-a579-e5e52c903a3b.webp",
         "output": "/optimized-uploads/1779895814014-a45464e2-3a3a-4d5f-adb7-dde90851b18c.webp"
       },
-      "resultText": "支撑项目总曝光 12 亿、直播间播放量 8 亿"
+      "resultText": "支撑项目总曝光 12 亿、直播间播放量 8 亿",
+      "hidden": true
     },
     {
       "id": "07",
-      "title": "CUSTOM PAGE",
-      "subtitle": "成龙「夏日狂欢派对」",
-      "description": "成龙「夏日狂欢派对」是快手平台的 S++ 级明星直播项目，以 “野营谈唱会” 为主题，邀请多位明星好友与达人参与互动。",
+      "title": "EVENT VIDEO",
+      "subtitle": "活动视频制作 / 大型项目内容支持",
+      "description": "参与快手年度盛典、快手 CNY、巴黎奥运会、周杰伦、成龙、蔡依林等大型活动与明星内容项目，负责活动素材支持、画面质感把控和内容执行。",
       "group": "celebrity",
       "image": "/images/style-reference.jpg",
       "tags": [
-        "实时监看推流状态与音画同步效果，根据现场情况调整技术参数，保障直播全程高清、稳定、无卡顿"
+        "活动回顾",
+        "明星内容",
+        "素材把控"
       ],
       "links": [
         {
@@ -288,13 +517,71 @@
       ],
       "videoImage": "/optimized-uploads/1779895814022-f1ab5ebc-82b5-4c80-9586-a81af45cd0bf.webp",
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779895814036-8b7e76a8-c737-4c8f-9c59-d2f9e28b52c8.webp",
+        "onsite": "/uploads/1784207347878-7ec767ea-fc92-43c6-9987-ccf9a8a0d7a8.png",
         "signal": "/optimized-uploads/1779895814044-a8abbf33-277a-41b5-b020-b06d1dd300da.webp",
         "output": "/optimized-uploads/1779895814052-0c5609b3-5c80-44f5-a790-3aa3ff30bcf3.webp"
       },
-      "showcaseTitle": "成龙「夏日狂欢派对」直播执行展示",
-      "showcaseDescription": "明星直播执行画面，包含现场合影、导播监控画面与实时战报数据，完整展示户外多机位协同、信号保障与高并发直播的技术执行细节。",
-      "resultText": "实现直播全程零信号中断、零重大技术事故，在高并发场景下保障了直播的稳定播出\n直播预约人数突破 1930 万，直播间最高同时在线 851 万人，累计观看人次超 3.5 亿，数据表现亮眼"
+      "showcaseTitle": "活动视频制作与大型项目内容支持",
+      "showcaseDescription": "展示大型活动、明星内容和现场执行素材，突出人物特写、灯光质感、肤色还原、多机位色彩统一和传播素材判断。",
+      "resultText": "为活动回顾、宣发短片、切片和二创内容提供素材基础，并根据活动调性快速判断素材可用性、传播亮点和后期剪辑方向，提升活动视频成片效率。",
+      "showcaseVideo": "/videos/1784207255831-f661445e-6f82-4ab1-bf60-a0edcb446493.mp4",
+      "caseRole": "摄像剪辑 / 画面质感把控 / 活动素材支持",
+      "caseDetails": [
+        "1.参与大型活动和明星内容项目的现场视觉执行，关注人物特写、舞台氛围、灯光质感和多机位画面统一。",
+        "2.根据活动节点和宣发需求判断素材优先级，提前保留可用于回顾短片、直播切片、海报封面和二创内容的关键画面。",
+        "3.现场执行中快速判断机位可用性、人物状态、光色变化和内容亮点，为后续剪辑提供稳定素材基础。",
+        "4.后期阶段从大量素材中筛选有效段落，按活动情绪线组织开场、高潮、互动和收束段落。",
+        "5.结合平台发布节奏输出活动回顾、宣发短片、花絮切片和二创素材，提高大型内容项目的二次传播效率。"
+      ],
+      "caseMethod": {
+        "visualText": "大型活动内容支持更看重现场判断和后期可用性。现场不是只拍完整，而是要知道哪些画面能成为回顾短片的情绪点、哪些特写能支撑传播、哪些素材适合后续切片和二创。",
+        "metrics": [
+          {
+            "title": "Live",
+            "label": "现场判断"
+          },
+          {
+            "title": "Cut",
+            "label": "素材可用"
+          },
+          {
+            "title": "Social",
+            "label": "传播亮点"
+          }
+        ],
+        "steps": [
+          {
+            "number": "01",
+            "title": "节点预判",
+            "text": "根据活动流程提前判断需要重点覆盖的舞台、人物、互动和情绪段落。"
+          },
+          {
+            "number": "02",
+            "title": "素材筛选",
+            "text": "从画面稳定性、人物状态、灯光质感和叙事价值判断素材是否适合后期使用。"
+          },
+          {
+            "number": "03",
+            "title": "内容延展",
+            "text": "将现场素材拆分为回顾短片、宣发切片、封面图和二创内容，提高项目传播周期。"
+          }
+        ],
+        "notesTitle": "大型项目内容支持经验",
+        "notes": [
+          "大型活动现场变化快，素材管理要前置，不能等到后期才发现缺少关键情绪或人物反应。",
+          "明星内容尤其要注意人物肤色、表情状态和特写质感，画面统一度会直接影响项目高级感。",
+          "活动素材的价值不只在直播当下，更在后续回顾、宣发和平台二次传播。"
+        ]
+      },
+      "galleryText": {
+        "onsiteTitle": "现场素材",
+        "onsiteDescription": "明星内容 / 舞台氛围 / 人物特写",
+        "signalTitle": "活动回顾",
+        "signalDescription": "流程节点 / 情绪段落 / 宣发切片",
+        "outputTitle": "传播输出",
+        "outputDescription": "短视频包装 / 封面画面 / 二创素材"
+      },
+      "workflowImage": "/uploads/1784209939055-be4a1bcc-c6a5-4d13-95bc-0536590a946c.png"
     },
     {
       "id": "18",
@@ -328,7 +615,8 @@
         "signalDescription": "演播室直播",
         "outputTitle": "赵四 -李晨",
         "outputDescription": "丰收农运会"
-      }
+      },
+      "hidden": true
     },
     {
       "id": "08",
@@ -362,7 +650,8 @@
         "signalDescription": "现场合照",
         "outputTitle": "岳云鹏",
         "outputDescription": "扫楼直播"
-      }
+      },
+      "hidden": true
     },
     {
       "id": "09",
@@ -522,13 +811,16 @@
     },
     {
       "id": "13",
-      "title": "CUSTOM PAGE",
-      "subtitle": "《带你趣户外》真人秀",
-      "description": "《带你趣户外》是快手平台重点户外真人秀 IP，覆盖泰国、巴厘岛、香港、中国西北等多个地域",
+      "title": "SHORT VIDEO",
+      "subtitle": "短视频剪辑 / 新媒体内容制作",
+      "description": "完成选题理解、爆款拆解、素材整理、粗剪精剪、节奏优化、音乐匹配、字幕包装、封面设计和多平台成片输出。",
       "group": "brand",
       "image": "/optimized-uploads/1779895814242-73a6ec95-14a8-4a4d-bd0c-a7145fb54bc7.webp",
       "tags": [
-        "统筹现场多机位拍摄与导播执行，根据节目流程设计镜头语言，完整呈现户外挑战。\n协同后期团队，完成节目素材整理、粗剪、调色与成片制作，输出短视频、战报、TVC 等多种形式的衍生内容"
+        "爆款拆解",
+        "完播节奏",
+        "封面包装",
+        "平台适配"
       ],
       "links": [
         {
@@ -536,15 +828,74 @@
           "icon": "Eye"
         }
       ],
-      "videoImage": "/optimized-uploads/1779977930311-aa784f0c-036b-41c3-a523-3d5a089101af.webp",
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779977920513-3d71d09e-6d1c-4a1a-becd-f778089f0918.webp",
         "signal": "/optimized-uploads/1779895814311-e4445943-7c70-49fc-9b17-716b30a7f280.webp",
         "output": "/optimized-uploads/1779977963626-2f79fe70-1456-4a37-89c2-101a7dbd53bb.webp"
       },
-      "showcaseDescription": "负责《带你趣户外》系列真人秀（泰国 / 巴厘岛 / 香港 / 中国西北等站）的全流程影像执行与直播技术保障",
-      "showcaseTitle": "《带你趣户外》系列项目成果展示",
-      "resultText": "完成系列真人秀多站项目的直播与录制执行，实现全程零信号中断、零重大技术事故，稳定支撑了户外复杂环境下的内容生产\n节目直播总观看人次超 4.12 亿，单站最高实时在线人数达 86.12 万人，话题传播总曝光超 22 亿，数据表现亮眼"
+      "showcaseDescription": "展示短视频剪辑、账号内容包装、技术科普、器材测评、幕后花絮、爆款结构拆解和平台适配输出。",
+      "showcaseTitle": "短视频剪辑 / 新媒体内容制作展示",
+      "resultText": "熟悉抖音、快手、视频号、B 站等平台内容节奏，能够拆解标杆短视频的镜头逻辑、画面风格和脚本结构，优化开头吸引力、信息密度、转场节奏和完播体验，并结合 AIGC 工具制作封面图、视觉参考和风格化素材。",
+      "caseRole": "短视频剪辑 / 内容包装 / 封面设计 / 账号内容制作",
+      "caseDetails": [
+        "1.根据平台内容定位和目标受众拆解选题，把信息点整理成适合短视频传播的开头钩子、段落节奏和结尾记忆点。",
+        "2.参考同类爆款内容，分析镜头逻辑、字幕密度、音乐情绪、转场节奏和画面风格，再转化为实际剪辑方案。",
+        "3.完成素材筛选、粗剪精剪、节奏压缩、字幕包装、封面设计和多版本输出，提升完播率和信息触达效率。",
+        "4.结合 AIGC 工具生成封面参考、风格化画面、背景延展和辅助视觉素材，让账号内容在视觉上更统一。",
+        "5.根据快手、抖音、视频号、B 站等平台差异调整开头节奏、画幅、字幕比例和信息密度，适配不同发布场景。"
+      ],
+      "caseMethod": {
+        "visualText": "新媒体内容制作要先解决“观众为什么停下来”。从选题到剪辑，不只看素材是否完整，更要判断开头是否有钩子、信息是否压缩到位、字幕是否清楚、封面是否能在信息流里被识别。",
+        "metrics": [
+          {
+            "title": "Hook",
+            "label": "开头吸引"
+          },
+          {
+            "title": "Tempo",
+            "label": "完播节奏"
+          },
+          {
+            "title": "Cover",
+            "label": "封面识别"
+          }
+        ],
+        "steps": [
+          {
+            "number": "01",
+            "title": "爆款拆解",
+            "text": "拆解同类内容的镜头顺序、脚本结构、字幕表达和情绪节奏，提炼可复用方法。"
+          },
+          {
+            "number": "02",
+            "title": "节奏压缩",
+            "text": "删除无效停顿，强化开头信息和转场节奏，让内容更适合信息流观看。"
+          },
+          {
+            "number": "03",
+            "title": "平台适配",
+            "text": "根据发布平台调整画幅、字幕、封面、标题和版本时长，提升点击和完播表现。"
+          }
+        ],
+        "notesTitle": "短视频内容制作经验",
+        "notes": [
+          "短视频不是把长内容剪短，而是重新组织观看路径，让观众快速知道为什么继续看。",
+          "字幕、封面、开头三秒和音乐节奏会直接影响内容进入信息流后的表现。",
+          "AIGC 可以用于封面参考、视觉补充和风格统一，但最终仍要回到剪辑节奏和平台表达。"
+        ]
+      },
+      "galleryText": {
+        "onsiteTitle": "素材整理",
+        "onsiteDescription": "选题拆解 / 粗剪精剪 / 节奏压缩",
+        "signalTitle": "平台包装",
+        "signalDescription": "字幕节奏 / 封面设计 / 信息密度",
+        "outputTitle": "多端输出",
+        "outputDescription": "快手 / 抖音 / 视频号 / B站适配"
+      },
+      "showcaseVideo": "/videos/1784210850301-31c7f2dc-655d-41a4-9c45-0448e90bb7e9.mp4",
+      "galleryVideos": {
+        "onsite": "/videos/1784210910178-7952d41c-f4f6-4ede-8144-846f1980ec2b.mp4"
+      },
+      "workflowImage": "/uploads/1784210991604-4d0bd64e-240d-4c8d-a911-bd66111c98f2.png"
     },
     {
       "id": "14",
@@ -596,74 +947,405 @@
       },
       "showcaseTitle": "李永乐老师科普课展示",
       "showcaseDescription": "标准化直播间、课程录制与品牌内容画面，从系统搭建、灯光优化、音频降噪到导播流程沉淀的完整执行能力。",
-      "resultText": "支撑600w+课程销售，执行200+节课程录制。"
+      "resultText": "支撑600w+课程销售，执行200+节课程录制。",
+      "caseRole": "课程录制 / 直播间搭建 / 视频制作规范",
+      "caseDetails": [
+        "1.从 0 到 1 搭建讲师内容录制场景，负责布光、构图、收音、录制流程和设备标准化配置。",
+        "2.根据讲师形象、课程类型和品牌视觉要求调整画面构图、肤色、背景层次和声音质量。",
+        "3.执行精品课程录制和品牌内容制作，保障课程画面稳定、信息清晰、人物状态自然。",
+        "4.参与宣传视频、课程短片和直播内容制作，完成素材整理、剪辑包装、调色修正和成片输出。",
+        "5.沉淀讲师拍摄、课程画面、直播间布置和视频制作规范，提高团队内容生产效率和画面一致性。"
+      ],
+      "caseMethod": {
+        "visualText": "课程视频制作的重点是稳定、清晰和可复用。画面不需要过度炫技，但必须保证讲师状态可信、信息表达清楚、声音稳定，后期流程可批量执行。",
+        "metrics": [
+          {
+            "title": "Studio",
+            "label": "场景标准"
+          },
+          {
+            "title": "Course",
+            "label": "信息清晰"
+          },
+          {
+            "title": "Batch",
+            "label": "批量交付"
+          }
+        ],
+        "steps": [
+          {
+            "number": "01",
+            "title": "场景搭建",
+            "text": "确定布光、收音、背景、机位和导播流程，让不同讲师录制效果保持统一。"
+          },
+          {
+            "number": "02",
+            "title": "录制执行",
+            "text": "控制人物状态、声音质量和画面稳定性，减少后期返工。"
+          },
+          {
+            "number": "03",
+            "title": "规范沉淀",
+            "text": "整理拍摄、剪辑和输出标准，提高课程内容批量生产效率。"
+          }
+        ],
+        "notesTitle": "课程视频制作经验",
+        "notes": [
+          "教育类视频更看重长期稳定和信息清晰，画面标准化比单条视频的视觉刺激更重要。",
+          "直播间搭建要兼顾老师表现、课程内容、声音质量和后续维护成本。",
+          "规范沉淀能让团队在高频录制中保持质量一致，也能明显减少沟通和返工。"
+        ]
+      },
+      "galleryText": {
+        "onsiteTitle": "录制场景",
+        "onsiteDescription": "讲师布光 / 收音构图 / 背景层次",
+        "signalTitle": "课程制作",
+        "signalDescription": "课程录制 / 宣传短片 / 品牌内容",
+        "outputTitle": "规范沉淀",
+        "outputDescription": "拍摄标准 / 剪辑标准 / 批量交付"
+      }
     }
   ],
   "experience": [
     {
-      "company": "北京快手科技有限公司",
-      "role": "直播技术 / 摄像剪辑",
+      "company": "北京快手有限公司",
+      "role": "视频制作 / 摄像剪辑 / AIGC视觉制作探索",
       "period": "2023.07 - 至今",
-      "position": "负责 S 级直播项目的视觉技术方案设计与落地执行。",
+      "position": "负责大型内容项目的视频宣传内容、直播技术支持、素材质量把控、短视频内容制作及 AIGC 辅助创作探索。",
       "highlights": [
-        "主导巴黎奥运会、米兰冬奥观赛团转播技术方案及推流策略，配置高可靠性回传链路。",
-        "负责周杰伦、成龙、李晨、希林娜依·高等明星直播，担任核心技术支持与摄影监制。",
-        "利用电影机感光曲线特性，在复杂灯光下实时调度多机位画面，确保特写影像质感与色彩统一。",
-        "完成《一起趣户外》《这一刻是主角》等真人秀录制，在户外极端环境下搭建视音频及回传系统。",
-        "策划技术官方账号，主导直播器材测评及 AIGC 辅助工作流落地。"
+        "主导大型活动、明星项目宣传片后期制作，统筹剪辑、调色，统一多机位成片光影与人物肤色标准。",
+        "负责快手年度盛典、奥运、大促等重点项目素材管理与视觉后期执行，保障批量宣传物料稳定输出。",
+        "独立完成官方账号科普、测评类短视频剪辑调色、封面包装，产出多条百万曝光商业宣传内容。",
+        "落地 SD、MJ、ComfyUI 等 AIGC 工具，为 TVC 宣传片生成分镜、视觉参考，创意与后期包装。",
+        "搭建 AI 辅助后期标准化流程，提升宣传片素材迭代速度，降低项目制作周期，适配短视频商业投放需求。"
       ]
     },
     {
-      "company": "网易有道信息技术（北京）有限公司",
-      "role": "资深摄影 / 直播技术",
+      "company": "网易有道有限公司",
+      "role": "资深摄影 / 视频制作 / 后期剪辑",
       "period": "2019.06 - 2023.07",
-      "position": "负责标准化直播间搭建及品牌短视频视觉标准制定。",
+      "position": "负责课程视频、品牌宣传片、TVC、短视频和直播间内容制作，前期策划、拍摄执行、剪辑包装和成片交付。",
       "highlights": [
-        "从0到1搭建精品课直播系统，优化布光、音频降噪及导播流程。",
-        "李永乐直播课 直播累计观看20w+，支撑累计600w+课程销售，执行200+节课程录制。",
-        "独立把控有道精品课系列宣传视频灯光、布景、构图及镜头语言。",
-        "带领团队建立视频制作规范，协同 AE/C4D 与 AIGC 技术优化合成流程。"
+        "负责有道精品课、少儿、李永乐课程 TVC 与知识类短视频，统筹实拍、剪辑调色全流程后期工作。",
+        "运用 AE、Spine 制作二维动态包装，搭配 AIGC 生成分镜、宣传素材，赋能短视频创意落地。",
+        "搭建标准化讲师录制与后期输出规范，产出 200 + 课程视频，直播项目 20w 观看，带动 600w 课程营收。",
+        "优化短视频叙事节奏与视觉表达，提升课程短视频曝光、用户预约转化数据。",
+        "沉淀剪辑、调色、动态包装标准化流程，统一全品类短视频与广告片品牌视觉。"
       ]
     }
   ],
   "skills": [
     {
-      "title": "直播/视音频系统",
+      "title": "后期软件",
       "items": [
-        "BMD ATEM 系列",
-        "Yamaha TF/QL 数字调音台",
-        "Riedel/Clear-Com",
-        "NDI",
-        "SRT",
-        "Dante"
-      ]
-    },
-    {
-      "title": "摄影采集设备",
-      "items": [
-        "ARRI",
-        "RED",
-        "SONY FX/Venice",
-        "LiveU",
-        "TVU 回传终端",
-        "多机位色彩校准"
-      ]
-    },
-    {
-      "title": "后期与创作",
-      "items": [
-        "Premiere Pro",
+        "Premiere",
         "After Effects",
         "DaVinci Resolve",
-        "Cinema 4D",
+        "Photoshop",
+        "C4D",
+        "剪映"
+      ]
+    },
+    {
+      "title": "AIGC工具",
+      "items": [
         "Stable Diffusion",
-        "AIGC 工作流"
+        "ComfyUI",
+        "Midjourney",
+        "GPT",
+        "即梦",
+        "可灵",
+        "Runway",
+        "Pika"
+      ]
+    },
+    {
+      "title": "视频制作",
+      "items": [
+        "宣传片制作",
+        "TVC制作",
+        "课程视频",
+        "活动视频",
+        "直播切片",
+        "短视频剪辑"
       ]
     }
   ],
   "education": "中国传媒大学 | 本科 | 数字媒体艺术",
   "footer": {
     "copyright": "© 2026 张林浩个人网站",
-    "contact": "1261250708@QQ.com"
-  }
+    "contact": "1261250708@qq.com"
+  },
+  "archiveImages": [
+    {
+      "id": "archive-01",
+      "title": "百大主播",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/01-百大主播.png"
+    },
+    {
+      "id": "archive-02",
+      "title": "蔡依林",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/02-蔡依林.png"
+    },
+    {
+      "id": "archive-03",
+      "title": "成龙",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/03-成龙.jpg"
+    },
+    {
+      "id": "archive-04",
+      "title": "成龙",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/04-成龙.png"
+    },
+    {
+      "id": "archive-05",
+      "title": "方言-老舅",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/05-方言-老舅.jpg"
+    },
+    {
+      "id": "archive-06",
+      "title": "方言麦霸音乐会",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/06-方言麦霸音乐会.jpg"
+    },
+    {
+      "id": "archive-07",
+      "title": "郭德纲",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/07-郭德纲.png"
+    },
+    {
+      "id": "archive-08",
+      "title": "国艺有新番",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/08-国艺有新番.jpg"
+    },
+    {
+      "id": "archive-09",
+      "title": "胡诹大王",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/09-胡诹大王.png"
+    },
+    {
+      "id": "archive-10",
+      "title": "火力营",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/10-火力营.jpg"
+    },
+    {
+      "id": "archive-11",
+      "title": "进阶吧主播",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/11-进阶吧主播.jpg"
+    },
+    {
+      "id": "archive-12",
+      "title": "鞠婧祎",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/12-鞠婧祎.png"
+    },
+    {
+      "id": "archive-13",
+      "title": "快手歌王",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/13-快手歌王.png"
+    },
+    {
+      "id": "archive-14",
+      "title": "快手好声音3",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/14-快手好声音3.png"
+    },
+    {
+      "id": "archive-15",
+      "title": "快手好声音4",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/15-快手好声音4.png"
+    },
+    {
+      "id": "archive-16",
+      "title": "快手状元",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/16-快手状元.jpg"
+    },
+    {
+      "id": "archive-17",
+      "title": "郎平",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/17-郎平.png"
+    },
+    {
+      "id": "archive-18",
+      "title": "老铁联欢晚会",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/18-老铁联欢晚会.jpg"
+    },
+    {
+      "id": "archive-19",
+      "title": "老铁联欢晚会2",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/19-老铁联欢晚会2.jpg"
+    },
+    {
+      "id": "archive-20",
+      "title": "李沁",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/20-李沁.jpg"
+    },
+    {
+      "id": "archive-21",
+      "title": "林更新",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/21-林更新.jpg"
+    },
+    {
+      "id": "archive-22",
+      "title": "奶思",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/22-奶思.png"
+    },
+    {
+      "id": "archive-23",
+      "title": "女排",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/23-女排.png"
+    },
+    {
+      "id": "archive-24",
+      "title": "铁村音乐会",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/24-铁村音乐会.png"
+    },
+    {
+      "id": "archive-25",
+      "title": "希林娜依高",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/25-希林娜依高.jpg"
+    },
+    {
+      "id": "archive-26",
+      "title": "下播之后2",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/26-下播之后2.jpg"
+    },
+    {
+      "id": "archive-27",
+      "title": "小鱼打歌中心",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/27-小鱼打歌中心.png"
+    },
+    {
+      "id": "archive-28",
+      "title": "小鱼打歌中心2",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/28-小鱼打歌中心2.png"
+    },
+    {
+      "id": "archive-29",
+      "title": "杨幂",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/29-杨幂.jpg"
+    },
+    {
+      "id": "archive-30",
+      "title": "一千零一夜",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/30-一千零一夜.jpg"
+    },
+    {
+      "id": "archive-31",
+      "title": "一千零一夜2",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/31-一千零一夜2.jpg"
+    },
+    {
+      "id": "archive-32",
+      "title": "岳云鹏-new",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/32-岳云鹏-new.png"
+    },
+    {
+      "id": "archive-33",
+      "title": "岳云鹏",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/33-岳云鹏.png"
+    },
+    {
+      "id": "archive-34",
+      "title": "JAY",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/34-JAY.png"
+    },
+    {
+      "id": "archive-35",
+      "title": "JAY2",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/35-JAY2.png"
+    },
+    {
+      "id": "archive-36",
+      "title": "Kim 2024-04-11 105524",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/36-Kim-2024-04-11-105524.png"
+    },
+    {
+      "id": "archive-37",
+      "title": "Kim 2024-04-11 105633",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/37-Kim-2024-04-11-105633.jpg"
+    },
+    {
+      "id": "archive-38",
+      "title": "Kim 2024-04-11 105653",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/38-Kim-2024-04-11-105653.png"
+    },
+    {
+      "id": "archive-39",
+      "title": "Kim 2024-04-11 105702",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/39-Kim-2024-04-11-105702.png"
+    },
+    {
+      "id": "archive-40",
+      "title": "Kim 2024-04-11 105708",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/40-Kim-2024-04-11-105708.jpg"
+    },
+    {
+      "id": "archive-41",
+      "title": "Kim 2024-04-11 105737",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/41-Kim-2024-04-11-105737.jpg"
+    },
+    {
+      "id": "archive-42",
+      "title": "Kim 2024-04-11 105752",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/42-Kim-2024-04-11-105752.jpg"
+    },
+    {
+      "id": "archive-43",
+      "title": "KIM20240411-037295",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/43-KIM20240411-037295.png"
+    },
+    {
+      "id": "archive-44",
+      "title": "messi",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/44-messi.png"
+    },
+    {
+      "id": "archive-45",
+      "title": "WechatIMG81",
+      "subtitle": "往期直播封面",
+      "image": "/archive/live-covers/45-WechatIMG81.jpg"
+    }
+  ]
 }

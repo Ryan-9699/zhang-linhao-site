@@ -37,6 +37,38 @@ function syncText(target?: string) {
   };
 }
 
+function isVideoSource(src?: string) {
+  return Boolean(src && /\.(mp4|webm|mov)(\?.*)?$/i.test(src));
+}
+
+function ProjectMedia({
+  video,
+  image,
+  alt,
+  sizes,
+  quality,
+}: {
+  video?: string;
+  image?: string;
+  alt: string;
+  sizes: string;
+  quality: number;
+}) {
+  if (video && isVideoSource(video)) {
+    return (
+      <video
+        src={video}
+        poster={image}
+        controls
+        playsInline
+        preload="metadata"
+      />
+    );
+  }
+
+  return <StoredImage src={image} alt={alt} sizes={sizes} quality={quality} />;
+}
+
 export default function PortfolioSite({ initialContent }: PortfolioSiteProps) {
   const siteRef = useRef<HTMLElement | null>(null);
   const content = useMemo(() => cloneContent(initialContent), [initialContent]);
@@ -91,10 +123,12 @@ export default function PortfolioSite({ initialContent }: PortfolioSiteProps) {
       tags: work.tags,
       image: work.image,
       videoImage: work.videoImage ?? work.image,
+      showcaseVideo: work.showcaseVideo,
       showcaseTitle: work.showcaseTitle,
       showcaseDescription: work.showcaseDescription,
       resultText: work.resultText,
       galleryImages: work.galleryImages,
+      galleryVideos: work.galleryVideos,
       galleryText: work.galleryText,
     });
 
@@ -121,6 +155,7 @@ export default function PortfolioSite({ initialContent }: PortfolioSiteProps) {
             tags: ["TVC", "品牌内容", "AIGC"],
             image: "/uploads/recovered/recovered-8-3871777.png",
             videoImage: "/uploads/recovered/recovered-9-3871777.png",
+            showcaseVideo: undefined,
             showcaseTitle: "有道精品课宣传 TVC 与品牌内容展示",
             showcaseDescription: "展示品牌宣传、课程内容与视觉包装成果，可用于呈现 TVC 画面、短视频内容、海报拼图或 AIGC 辅助产出。",
             resultText: "补充品牌内容的播放数据、客户反馈、转化效果或代表成果。",
@@ -129,6 +164,7 @@ export default function PortfolioSite({ initialContent }: PortfolioSiteProps) {
               signal: "/uploads/recovered/recovered-b-257421.png",
               output: "/uploads/recovered/recovered-c-2356172.png",
             },
+            galleryVideos: undefined,
             galleryText: undefined,
           },
         ]
@@ -727,10 +763,16 @@ export default function PortfolioSite({ initialContent }: PortfolioSiteProps) {
                   </div>
                   <div className="sleek-project-video">
                     <div className="sleek-video-frame">
-                      <StoredImage src={item.videoImage} alt={`${item.name}展示图`} sizes="690px" quality={72} />
+                      <ProjectMedia
+                        video={item.showcaseVideo}
+                        image={item.videoImage}
+                        alt={`${item.name}展示图`}
+                        sizes="690px"
+                        quality={75}
+                      />
                     </div>
                     <div className="sleek-video-copy">
-                      <span>IMAGE SHOWCASE</span>
+                      <span>{item.showcaseVideo ? "VIDEO SHOWCASE" : "IMAGE SHOWCASE"}</span>
                       <strong {...syncText(`work:${item.id}:showcaseTitle`)}>
                         {item.showcaseTitle ?? `${item.name} 展示图`}
                       </strong>
@@ -762,28 +804,37 @@ export default function PortfolioSite({ initialContent }: PortfolioSiteProps) {
                         title: item.galleryText?.onsiteTitle ?? "现场执行",
                         description: item.galleryText?.onsiteDescription ?? "导播台 / 机位 / 灯光 / 调音台",
                         image: item.galleryImages?.onsite ?? item.image,
+                        video: item.galleryVideos?.onsite,
                       },
                       {
                         key: "signal",
                         title: item.galleryText?.signalTitle ?? "信号链路",
                         description: item.galleryText?.signalDescription ?? "回传设备 / 推流监看 / 主备链路",
                         image: item.galleryImages?.signal ?? item.image,
+                        video: item.galleryVideos?.signal,
                       },
                       {
                         key: "output",
                         title: item.galleryText?.outputTitle ?? "成片画面",
                         description: item.galleryText?.outputDescription ?? "直播截图 / TVC画面 / 品牌内容",
                         image: item.galleryImages?.output ?? item.image,
+                        video: item.galleryVideos?.output,
                       },
-                    ].map(({ key, title, description, image }) => (
+                    ].map(({ key, title, description, image, video }) => (
                       <div className="sleek-project-gallery-set" key={key}>
                         <div>
                           <span {...syncText(`work:${item.id}:galleryText:${key}Title`)}>{title}</span>
                           <p {...syncText(`work:${item.id}:galleryText:${key}Description`)}>{description}</p>
                         </div>
                         <div className="sleek-project-gallery">
-                          <figure>
-                            <StoredImage src={image} alt={`${item.name}${title}展示图`} sizes="1120px" quality={72} />
+                          <figure className={video ? "has-video" : ""}>
+                            <ProjectMedia
+                              video={video}
+                              image={image}
+                              alt={`${item.name}${title}展示图`}
+                              sizes="1120px"
+                              quality={75}
+                            />
                           </figure>
                         </div>
                       </div>

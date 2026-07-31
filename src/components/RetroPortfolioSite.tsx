@@ -38,22 +38,11 @@ function readFileAsDataUrl(file: File): Promise<string> {
 }
 
 export default function RetroPortfolioSite({ initialContent }: PortfolioSiteProps) {
-  const [content, setContent] = useState<ContentData>(() => {
-    if (typeof window === "undefined") return cloneContent(initialContent);
-
-    const saved = window.localStorage.getItem(storageKey);
-    if (!saved) return cloneContent(initialContent);
-
-    try {
-      return JSON.parse(saved) as ContentData;
-    } catch {
-      window.localStorage.removeItem(storageKey);
-      return cloneContent(initialContent);
-    }
-  });
+  const [content, setContent] = useState<ContentData>(() => cloneContent(initialContent));
   const [editing, setEditing] = useState(false);
   const [activeWorkId, setActiveWorkId] = useState(initialContent.works[0]?.id ?? "01");
   const [savedAt, setSavedAt] = useState("");
+  const [saveError, setSaveError] = useState("");
 
   const activeWork = useMemo(
     () => content.works.find((work) => work.id === activeWorkId) ?? content.works[0],
@@ -100,9 +89,20 @@ export default function RetroPortfolioSite({ initialContent }: PortfolioSiteProp
     setEditing(true);
   }
 
-  function saveLocal() {
-    window.localStorage.setItem(storageKey, JSON.stringify(content));
-    setSavedAt(new Date().toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit" }));
+  async function saveLocal() {
+    try {
+      const response = await fetch("/api/retro-content", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(content),
+      });
+      if (!response.ok) throw new Error("Save failed");
+      window.localStorage.removeItem(storageKey);
+      setSavedAt(new Date().toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit" }));
+      setSaveError("");
+    } catch {
+      setSaveError("保存失败：请确认开发服务仍在运行。");
+    }
   }
 
   function exportJson() {
@@ -110,7 +110,7 @@ export default function RetroPortfolioSite({ initialContent }: PortfolioSiteProp
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = "content.json";
+    link.download = "retro-content.json";
     link.click();
     URL.revokeObjectURL(url);
   }
@@ -349,11 +349,18 @@ export default function RetroPortfolioSite({ initialContent }: PortfolioSiteProp
           <div className="editor-header">
             <div>
               <p>EDIT MODE</p>
-              <h2>修改文字和图片</h2>
+              <h2>旧版直播技术简历</h2>
             </div>
             <button className="icon-button dark" onClick={() => setEditing(false)} aria-label="关闭编辑面板">
               <X size={20} />
             </button>
+          </div>
+
+          <p className="editor-scope-note">此处只保存旧版 <code>/retro</code> 页面数据，不会修改主站 <code>/admin</code> 的内容、案例或上传媒体。</p>
+
+          <div className="editor-divider">
+            <Palette size={16} />
+            首页与个人信息
           </div>
 
           <label>
@@ -387,7 +394,7 @@ export default function RetroPortfolioSite({ initialContent }: PortfolioSiteProp
 
           <div className="editor-divider">
             <Palette size={16} />
-            作品内容
+            旧版项目内容（仅 /retro）
           </div>
 
           <div className="work-tabs">
@@ -439,7 +446,7 @@ export default function RetroPortfolioSite({ initialContent }: PortfolioSiteProp
           <div className="editor-actions">
             <button onClick={saveLocal}>
               <Save size={16} />
-              保存到浏览器
+              保存旧版数据
             </button>
             <button onClick={exportJson}>
               <Download size={16} />
@@ -447,6 +454,7 @@ export default function RetroPortfolioSite({ initialContent }: PortfolioSiteProp
             </button>
           </div>
           {savedAt && <p className="saved-note">已保存 {savedAt}</p>}
+          {saveError && <p className="saved-note">{saveError}</p>}
         </aside>
       )}
 
