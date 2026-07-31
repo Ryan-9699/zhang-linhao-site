@@ -19,6 +19,8 @@
 
 # production
 /build
+/dist/
+/.wrangler/
 
 # local original uploads are preserved in archive backups; Git keeps optimized webp assets.
 /public/uploads/
