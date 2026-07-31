@@ -27,9 +27,13 @@ export function sites(): Plugin {
       const outputDirectory = resolve(root, "dist", ".openai");
       const hostingConfig = resolve(root, ".openai", "hosting.json");
       const drizzleSource = resolve(root, "drizzle");
+      const clientVideos = resolve(root, "dist", "client", "videos");
+      const clientUploads = resolve(root, "dist", "client", "uploads");
 
       await rm(outputDirectory, { recursive: true, force: true });
       await mkdir(outputDirectory, { recursive: true });
+      await rm(clientVideos, { recursive: true, force: true });
+      await rm(clientUploads, { recursive: true, force: true });
 
       if (await exists(hostingConfig)) {
         await cp(hostingConfig, resolve(outputDirectory, "hosting.json"));

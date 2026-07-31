@@ -13,7 +13,7 @@
     "degree": "中国传媒大学 本科",
     "experience": "6年视频制作经验",
     "role": "后期制作 / 视频剪辑包装 / AIGC视频制作",
-    "avatar": "/uploads/1782960804787-0aa4898b-a2a1-49c8-9b12-9fa47864d42a.png",
+    "avatar": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/uploads/1782960804787-0aa4898b-a2a1-49c8-9b12-9fa47864d42a.png",
     "salary": "上海",
     "city": "北京",
     "summary": "具备视频后期制作、影视摄影与 AIGC 工具应用经验，擅长剪辑节奏、包装调色、画面质感与 AI 视频素材生成。",
@@ -206,7 +206,7 @@
       },
       "videoImage": "/optimized-uploads/1779895813878-6823931d-aef2-49a2-8947-577339ef4cd5.webp",
       "resultText": "根据项目需求生成视觉参考图、分镜概念图、AI 封面、风格化素材和短视频包装素材，并将 AIGC 用于创意预演、背景延展、画面修复、素材补充和视觉风格探索。",
-      "showcaseVideo": "/videos/1783159091773-72ea9929-3f15-4065-83d0-e957dedea442.mp4"
+      "showcaseVideo": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/videos/1783159091773-72ea9929-3f15-4065-83d0-e957dedea442.mp4"
     },
     {
       "id": "06",
