@@ -13,7 +13,7 @@
     "degree": "中国传媒大学 本科",
     "experience": "6年视频制作经验",
     "role": "AI视频创意设计师 / 后期制作 / 短视频剪辑包装",
-    "avatar": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/uploads/1782960804787-0aa4898b-a2a1-49c8-9b12-9fa47864d42a.png",
+    "avatar": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/uploads/1782960804787-0aa4898b-a2a1-49c8-9b12-9fa47864d42a.png",
     "salary": "上海",
     "city": "北京",
     "summary": "具备视频后期制作、影视摄影与 AIGC 内容落地经验，擅长从脚本拆解、分镜设计、素材生成到剪辑包装、平台成片交付的完整制作流程。",
@@ -199,13 +199,13 @@
         }
       ],
       "galleryImages": {
-        "onsite": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/uploads/1783950624243-3050b04b-d517-4e94-bcb7-3c2481558ef1.png",
-        "signal": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/uploads/1783954144795-613eebb0-eb78-40cc-83a4-6a2dc5c34b1c.png",
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/uploads/1783950624243-3050b04b-d517-4e94-bcb7-3c2481558ef1.png",
+        "signal": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/uploads/1783954144795-613eebb0-eb78-40cc-83a4-6a2dc5c34b1c.png",
         "output": "/optimized-uploads/1779895813873-69aafb0e-a673-4a52-9d12-8864d72f0a41.webp"
       },
-      "videoImage": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/uploads/1783263450101-b6c3dcf0-8a52-4c46-b7bf-6e98169b673b.png",
+      "videoImage": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/uploads/1783263450101-b6c3dcf0-8a52-4c46-b7bf-6e98169b673b.png",
       "resultText": "从创意拆解到成片交付，全链路 AIGC 视频制作落地。以需求为起点梳理分镜逻辑与视觉标准，多工具协同生成素材，聚焦人物一致性、镜头连贯性与风格统一性做品质管控，最终衔接后期完成成品交付，适配短剧、直播宣发、商业宣传片等场景，实现内容提效与品质可控。",
-      "showcaseVideo": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/videos/1783159091773-72ea9929-3f15-4065-83d0-e957dedea442.mp4",
+      "showcaseVideo": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/videos/1783159091773-72ea9929-3f15-4065-83d0-e957dedea442.mp4",
       "hidden": false,
       "caseDetails": [
         "网易知识付费项目（有道精品课、李永乐、少儿课程）：用 AI 生成分镜参考、讲师宣传封面、课程配图，辅助 TVC、知识短视频前期创意落地。",
@@ -214,7 +214,7 @@
         "针对不同项目沉淀专属关键词与画面规范：知识类视频侧重简洁理性画面，活动宣传侧重氛围感视觉素材，镜头连贯性。",
         "持续测试 SD、MJ、可灵、即梦等工具适配商业广告场景，搭建可复用的 AI 素材工作流，提升课程宣传片、直播活动预热片批量制作效率。"
       ],
-      "workflowImage": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/uploads/ai-workflow-source-collage-white-20260713.png",
+      "workflowImage": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/uploads/ai-workflow-source-collage-white-20260713.png",
       "caseMethod": {
         "visualText": "以成片可商用、适配短视频投放为核心，不单一追求单帧画面效果，把 AIGC、实拍、后期剪辑整套流程统一视觉标准：",
         "metrics": [
@@ -301,7 +301,7 @@
       "subtitle": "TVC / 宣传短片制作",
       "description": "覆盖选题、分镜、拍摄、剪辑包装和成片输出，可根据需求制定拍摄方案、运镜思路与场景布局，将产品卖点、人物状态、品牌信息和情绪表达整合为清晰的视频叙事。",
       "group": "celebrity",
-      "image": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/uploads/1784173170300-245ef595-56fb-49e3-9953-745613bf4ad3.png",
+      "image": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/uploads/1784173170300-245ef595-56fb-49e3-9953-745613bf4ad3.png",
       "showcaseTitle": "TVC / 宣传短片制作展示",
       "showcaseDescription": "展示宣传片、TVC、讲师介绍片、课程产品短片与 AI 产品宣发视频的剪辑节奏、音乐匹配、字幕包装、转场设计、调色修正与基础合成能力。",
       "tags": [
@@ -318,7 +318,7 @@
         }
       ],
       "galleryImages": {
-        "onsite": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/uploads/tvc-video-poster-20260716.png",
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/uploads/tvc-video-poster-20260716.png",
         "signal": "/optimized-uploads/1779895813945-ba2d645f-9ec3-46ce-9bea-948b8c9a6199.webp",
         "output": "/optimized-uploads/1779895813950-16ec6f92-d6bc-4dbe-b8db-5b4d9a294754.webp"
       },
@@ -331,7 +331,7 @@
         "outputTitle": "成片输出",
         "outputDescription": "宣传版本 / 竖版适配 / 封面画面"
       },
-      "showcaseVideo": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/videos/1784208386931-659b9b50-d22a-4759-beaf-df519508a029.mp4",
+      "showcaseVideo": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/videos/1784208386931-659b9b50-d22a-4759-beaf-df519508a029.mp4",
       "caseRole": "摄影 / 剪辑 / 后期制作 / 成片交付",
       "caseDetails": [
         "1.全案策划输出快手直播活动、网易讲师宣传等 TVC 广告脚本与分镜，结合投放平台设计叙事节奏，打造引流开篇钩子。",
@@ -381,9 +381,9 @@
         ]
       },
       "galleryVideos": {
-        "onsite": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/videos/1784208391826-c33349b7-3a17-4b66-865e-ac6e0a943aa0.mp4"
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/videos/1784208391826-c33349b7-3a17-4b66-865e-ac6e0a943aa0.mp4"
       },
-      "workflowImage": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/uploads/1784209710604-9159d667-0ad7-4c8d-be58-e2bc33d19d57.png"
+      "workflowImage": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/uploads/1784209710604-9159d667-0ad7-4c8d-be58-e2bc33d19d57.png"
     },
     {
       "id": "03",
@@ -517,14 +517,14 @@
       ],
       "videoImage": "/optimized-uploads/1779895814022-f1ab5ebc-82b5-4c80-9586-a81af45cd0bf.webp",
       "galleryImages": {
-        "onsite": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/uploads/1784207347878-7ec767ea-fc92-43c6-9987-ccf9a8a0d7a8.png",
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/uploads/1784207347878-7ec767ea-fc92-43c6-9987-ccf9a8a0d7a8.png",
         "signal": "/optimized-uploads/1779895814044-a8abbf33-277a-41b5-b020-b06d1dd300da.webp",
         "output": "/optimized-uploads/1779895814052-0c5609b3-5c80-44f5-a790-3aa3ff30bcf3.webp"
       },
       "showcaseTitle": "活动视频制作与大型项目内容支持",
       "showcaseDescription": "展示大型活动、明星内容和现场执行素材，突出人物特写、灯光质感、肤色还原、多机位色彩统一和传播素材判断。",
       "resultText": "为活动回顾、宣发短片、切片和二创内容提供素材基础，并根据活动调性快速判断素材可用性、传播亮点和后期剪辑方向，提升活动视频成片效率。",
-      "showcaseVideo": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/videos/1784207255831-f661445e-6f82-4ab1-bf60-a0edcb446493.mp4",
+      "showcaseVideo": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/videos/1784207255831-f661445e-6f82-4ab1-bf60-a0edcb446493.mp4",
       "caseRole": "摄像剪辑 / 画面质感把控 / 活动素材支持",
       "caseDetails": [
         "1.参与大型活动和明星内容项目的现场视觉执行，关注人物特写、舞台氛围、灯光质感和多机位画面统一。",
@@ -581,7 +581,7 @@
         "outputTitle": "传播输出",
         "outputDescription": "短视频包装 / 封面画面 / 二创素材"
       },
-      "workflowImage": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/uploads/1784209939055-be4a1bcc-c6a5-4d13-95bc-0536590a946c.png"
+      "workflowImage": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/uploads/1784209939055-be4a1bcc-c6a5-4d13-95bc-0536590a946c.png"
     },
     {
       "id": "18",
@@ -891,11 +891,11 @@
         "outputTitle": "多端输出",
         "outputDescription": "快手 / 抖音 / 视频号 / B站适配"
       },
-      "showcaseVideo": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/videos/1784210850301-31c7f2dc-655d-41a4-9c45-0448e90bb7e9.mp4",
+      "showcaseVideo": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/videos/1784210850301-31c7f2dc-655d-41a4-9c45-0448e90bb7e9.mp4",
       "galleryVideos": {
-        "onsite": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/videos/1784210910178-7952d41c-f4f6-4ede-8144-846f1980ec2b.mp4"
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/videos/1784210910178-7952d41c-f4f6-4ede-8144-846f1980ec2b.mp4"
       },
-      "workflowImage": "https://media.githubusercontent.com/media/Ryan-9699/zhang-linhao-site/main/public/uploads/1784210991604-4d0bd64e-240d-4c8d-a911-bd66111c98f2.png"
+      "workflowImage": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/uploads/1784210991604-4d0bd64e-240d-4c8d-a911-bd66111c98f2.png"
     },
     {
       "id": "14",
