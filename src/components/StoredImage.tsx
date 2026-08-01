@@ -66,6 +66,10 @@ export default function StoredImage({
     return <img {...props} src={resolvedSrc} alt={alt} loading="lazy" decoding="async" />;
   }
 
+  if (/^https:\/\/raw\.githubusercontent\.com\//i.test(resolvedSrc)) {
+    return <img {...props} src={resolvedSrc} alt={alt} loading={priority ? "eager" : "lazy"} decoding="async" />;
+  }
+
   if (/\.svg(\?.*)?$/i.test(resolvedSrc)) {
     return <img {...props} src={resolvedSrc} alt={alt} loading={priority ? "eager" : "lazy"} decoding="async" />;
   }

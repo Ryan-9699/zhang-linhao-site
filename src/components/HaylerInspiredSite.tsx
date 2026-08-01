@@ -190,13 +190,11 @@ function ProjectVisual({
   alt,
   sizes,
   priority = false,
-  label = "SHOWREEL",
 }: {
   work?: WorkItem;
   alt: string;
   sizes: string;
   priority?: boolean;
-  label?: string;
 }) {
   const stillImage = work?.videoImage ?? work?.image;
 
@@ -209,9 +207,8 @@ function ProjectVisual({
           poster={work?.videoImage}
           controls
           playsInline
-          preload="metadata"
+          preload="none"
         />
-        <span className="hyl-video-badge">{label}</span>
       </>
     );
   }
@@ -717,7 +714,7 @@ export default function HaylerInspiredSite({ initialContent }: HaylerInspiredSit
                 key={project.title}
               >
                 <div className="hyl-work-media hyl-parallax-media">
-                  <ProjectVisual work={work} alt={project.title} sizes="(max-width: 900px) 92vw, 44vw" label="MIX CUT" />
+                  <ProjectVisual work={work} alt={project.title} sizes="(max-width: 900px) 92vw, 44vw" />
                 </div>
                 <div className="hyl-work-copy">
                   <span>{String(index + 1).padStart(2, "0")}</span>
@@ -903,7 +900,7 @@ export default function HaylerInspiredSite({ initialContent }: HaylerInspiredSit
                         poster={selectedCaseProcessImage}
                         controls
                         playsInline
-                        preload="metadata"
+                        preload="none"
                       />
                     ) : (
                       <StoredImage
