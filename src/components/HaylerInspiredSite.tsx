@@ -185,6 +185,17 @@ function isVideoSource(src?: string) {
   return Boolean(src && /\.(mp4|webm|mov)(\?.*)?$/i.test(src));
 }
 
+function getWorkPoster(work?: WorkItem) {
+  return (
+    work?.videoImage ||
+    work?.image ||
+    work?.galleryImages?.onsite ||
+    work?.galleryImages?.signal ||
+    work?.galleryImages?.output ||
+    ""
+  );
+}
+
 function ProjectVisual({
   work,
   alt,
@@ -196,7 +207,7 @@ function ProjectVisual({
   sizes: string;
   priority?: boolean;
 }) {
-  const stillImage = work?.videoImage ?? work?.image;
+  const stillImage = getWorkPoster(work);
 
   if (isVideoSource(work?.showcaseVideo)) {
     return (
@@ -204,7 +215,7 @@ function ProjectVisual({
         <video
           className="hyl-project-video"
           src={work?.showcaseVideo}
-          poster={work?.videoImage}
+          poster={stillImage}
           controls
           playsInline
           preload="none"
