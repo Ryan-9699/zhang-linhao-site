@@ -2,7 +2,6 @@
 
 /* eslint-disable @next/next/no-img-element */
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import { getStoredImageBlob, isStoredImageRef } from "@/lib/imageStore";
 import type { ImgHTMLAttributes } from "react";
 
@@ -57,34 +56,11 @@ export default function StoredImage({
       ? resolvedImage.url
       : fallbackSrc
     : src || fallbackSrc;
+  void quality;
 
   if (!resolvedSrc) {
-    return <img {...props} src="" alt={alt} loading="lazy" decoding="async" />;
+    return <img {...props} src="" alt={alt} sizes={sizes} loading="lazy" decoding="async" />;
   }
 
-  if (resolvedSrc.startsWith("blob:") || resolvedSrc.startsWith("data:")) {
-    return <img {...props} src={resolvedSrc} alt={alt} loading="lazy" decoding="async" />;
-  }
-
-  if (/^https:\/\/raw\.githubusercontent\.com\//i.test(resolvedSrc)) {
-    return <img {...props} src={resolvedSrc} alt={alt} loading={priority ? "eager" : "lazy"} decoding="async" />;
-  }
-
-  if (/\.svg(\?.*)?$/i.test(resolvedSrc)) {
-    return <img {...props} src={resolvedSrc} alt={alt} loading={priority ? "eager" : "lazy"} decoding="async" />;
-  }
-
-  return (
-    <Image
-      {...props}
-      src={resolvedSrc}
-      alt={alt}
-      width={1600}
-      height={900}
-      sizes={sizes}
-      quality={quality}
-      priority={priority}
-      loading={priority ? "eager" : "lazy"}
-    />
-  );
+  return <img {...props} src={resolvedSrc} alt={alt} sizes={sizes} loading={priority ? "eager" : "lazy"} decoding="async" />;
 }
