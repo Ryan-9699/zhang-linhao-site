@@ -185,7 +185,7 @@
       "subtitle": "AIGC 视频制作 / AI视觉素材",
       "description": "围绕人物、场景、服装、道具、光影和镜头语言进行 Prompt 设计、参考图拆解和风格控制，用于创意预演、背景延展和 AI 视频生成。",
       "group": "s-live",
-      "image": "/optimized-uploads/1779895813859-cbbbc58a-ea94-4d7a-91f2-a13fc0db31f2.webp",
+      "image": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813859-cbbbc58a-ea94-4d7a-91f2-a13fc0db31f2.webp",
       "showcaseTitle": "AIGC 视频制作与视觉素材展示",
       "showcaseDescription": "展示 AI 分镜概念、风格化素材、封面包装和视频创意预演成果，可替换为个人混剪视频作为项目首屏。",
       "tags": [
@@ -200,11 +200,11 @@
         }
       ],
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779895813864-aebcc5c2-3d28-4df2-a8ae-d63c48ccb1a3.webp",
-        "signal": "/optimized-uploads/1779895813869-32cc588d-4796-49a3-8fa7-42dedc79e49b.webp",
-        "output": "/optimized-uploads/1779895813873-69aafb0e-a673-4a52-9d12-8864d72f0a41.webp"
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813864-aebcc5c2-3d28-4df2-a8ae-d63c48ccb1a3.webp",
+        "signal": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813869-32cc588d-4796-49a3-8fa7-42dedc79e49b.webp",
+        "output": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813873-69aafb0e-a673-4a52-9d12-8864d72f0a41.webp"
       },
-      "videoImage": "/optimized-uploads/1779895813878-6823931d-aef2-49a2-8947-577339ef4cd5.webp",
+      "videoImage": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813878-6823931d-aef2-49a2-8947-577339ef4cd5.webp",
       "resultText": "根据项目需求生成视觉参考图、分镜概念图、AI 封面、风格化素材和短视频包装素材，并将 AIGC 用于创意预演、背景延展、画面修复、素材补充和视觉风格探索。",
       "showcaseVideo": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/videos/1783159091773-72ea9929-3f15-4065-83d0-e957dedea442.mp4"
     },
@@ -215,7 +215,7 @@
       "description": "负责贵州村奥会系列赛事的全流程直播技术执行，在户外复杂环境下搭建多机位拍摄、导播、信号回传及推流监看链路，保障赛事内容稳定、高清输出。",
       "hidden": true,
       "group": "s-live",
-      "image": "/optimized-uploads/1779895813886-efa38810-a0ac-48e9-8409-70245d02c47c.webp",
+      "image": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813886-efa38810-a0ac-48e9-8409-70245d02c47c.webp",
       "showcaseTitle": "贵州村奥会现场执行展示",
       "showcaseDescription": "村奥会现场赛事氛围、舞台调度和多机位执行画面，体现户外场景下的导播协同、信号保障与赛事内容稳定输出。",
       "tags": [
@@ -230,9 +230,9 @@
         }
       ],
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779895813895-64450d3e-4b63-4fef-ac20-21b9049a53e7.webp",
-        "signal": "/optimized-uploads/1779895813901-313cd0df-65ee-4adc-aad5-87e2debba229.webp",
-        "output": "/optimized-uploads/1779895813908-4e0cd583-9bdf-4ec4-a6ab-4ee6682674be.webp"
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813895-64450d3e-4b63-4fef-ac20-21b9049a53e7.webp",
+        "signal": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813901-313cd0df-65ee-4adc-aad5-87e2debba229.webp",
+        "output": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813908-4e0cd583-9bdf-4ec4-a6ab-4ee6682674be.webp"
       },
       "resultText": "实现多场赛事直播全程零信号中断、零重大技术事故，保障了直播的稳定播出"
     },
@@ -242,7 +242,7 @@
       "subtitle": "TVC / 宣传短片制作",
       "description": "覆盖选题、分镜、拍摄、剪辑包装和成片输出，将产品卖点、人物状态、品牌信息和情绪表达整合为清晰的视频叙事。",
       "group": "celebrity",
-      "image": "/optimized-uploads/1779895813917-aab2c10f-0e51-4800-8ab0-cc1ba53bf5e3.webp",
+      "image": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813917-aab2c10f-0e51-4800-8ab0-cc1ba53bf5e3.webp",
       "showcaseTitle": "TVC / 宣传短片制作展示",
       "showcaseDescription": "展示宣传片、TVC、讲师介绍片和课程产品短片的剪辑节奏、音乐匹配、字幕包装、调色修正与基础合成能力。",
       "tags": [
@@ -256,11 +256,11 @@
           "icon": "ExternalLink"
         }
       ],
-      "videoImage": "/optimized-uploads/1779895813932-031180df-ac1c-4868-9ded-e5024b143afd.webp",
+      "videoImage": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813932-031180df-ac1c-4868-9ded-e5024b143afd.webp",
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779895813940-36e347fd-2063-4864-93a6-4d1503e1876a.webp",
-        "signal": "/optimized-uploads/1779895813945-ba2d645f-9ec3-46ce-9bea-948b8c9a6199.webp",
-        "output": "/optimized-uploads/1779895813950-16ec6f92-d6bc-4dbe-b8db-5b4d9a294754.webp"
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813940-36e347fd-2063-4864-93a6-4d1503e1876a.webp",
+        "signal": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813945-ba2d645f-9ec3-46ce-9bea-948b8c9a6199.webp",
+        "output": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813950-16ec6f92-d6bc-4dbe-b8db-5b4d9a294754.webp"
       },
       "resultText": "根据产品卖点、品牌调性和传播目标，完成视频节奏设计、镜头组接、音乐匹配、字幕包装、调色修正和基础合成，提升品牌视频质感和信息表达效率。",
       "galleryText": {
@@ -274,7 +274,7 @@
       "subtitle": "快手年度盛典",
       "description": "担任直播技术统筹，设计主/备/流三层冗余备份方案，保障6小时大型直播稳定执行。",
       "group": "s-live",
-      "image": "/optimized-uploads/1779895813957-2c218d06-8449-465e-a3e7-24bdc118a500.webp",
+      "image": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813957-2c218d06-8449-465e-a3e7-24bdc118a500.webp",
       "showcaseTitle": "快手年度盛典系统执行展示",
       "showcaseDescription": "展示年度盛典直播系统搭建与现场执行成果，突出主备流冗余、导播链路管理和大型直播稳定播出保障。",
       "tags": [
@@ -289,9 +289,9 @@
         }
       ],
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779895813965-dcd0a86c-14e1-434f-ba33-857b3d90e3ba.webp",
-        "signal": "/optimized-uploads/1779895813974-f306803a-9a81-4976-a385-89f281d792f9.webp",
-        "output": "/optimized-uploads/1779895813987-e6b5cc17-61c8-4124-bc5a-1a48d77756e7.webp"
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813965-dcd0a86c-14e1-434f-ba33-857b3d90e3ba.webp",
+        "signal": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813974-f306803a-9a81-4976-a385-89f281d792f9.webp",
+        "output": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813987-e6b5cc17-61c8-4124-bc5a-1a48d77756e7.webp"
       },
       "resultText": "支撑项目总曝光 6 亿、直播间播放量 2.5 亿"
     },
@@ -301,7 +301,7 @@
       "subtitle": "快手24年CNY",
       "description": "《快手CNY》72小时连续不关播直播，完善应急预案并精准把控技术链路稳定性。",
       "group": "s-live",
-      "image": "/optimized-uploads/1779895813994-69c2749e-2239-4f06-ae24-1b18b7fa1c01.webp",
+      "image": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895813994-69c2749e-2239-4f06-ae24-1b18b7fa1c01.webp",
       "showcaseTitle": "长周期直播保障展示",
       "showcaseDescription": "连续直播项目中的播控画面、应急预案与链路监看成果，长时间不关播场景下的技术稳定性与现场响应。",
       "tags": [
@@ -316,9 +316,9 @@
         }
       ],
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779895814001-da31adaa-7e41-452f-b565-5c537e6b610f.webp",
-        "signal": "/optimized-uploads/1779895814008-05172581-2556-4be5-a579-e5e52c903a3b.webp",
-        "output": "/optimized-uploads/1779895814014-a45464e2-3a3a-4d5f-adb7-dde90851b18c.webp"
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814001-da31adaa-7e41-452f-b565-5c537e6b610f.webp",
+        "signal": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814008-05172581-2556-4be5-a579-e5e52c903a3b.webp",
+        "output": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814014-a45464e2-3a3a-4d5f-adb7-dde90851b18c.webp"
       },
       "resultText": "支撑项目总曝光 12 亿、直播间播放量 8 亿"
     },
@@ -340,11 +340,11 @@
           "icon": "Eye"
         }
       ],
-      "videoImage": "/optimized-uploads/1779895814022-f1ab5ebc-82b5-4c80-9586-a81af45cd0bf.webp",
+      "videoImage": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814022-f1ab5ebc-82b5-4c80-9586-a81af45cd0bf.webp",
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779895814036-8b7e76a8-c737-4c8f-9c59-d2f9e28b52c8.webp",
-        "signal": "/optimized-uploads/1779895814044-a8abbf33-277a-41b5-b020-b06d1dd300da.webp",
-        "output": "/optimized-uploads/1779895814052-0c5609b3-5c80-44f5-a790-3aa3ff30bcf3.webp"
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814036-8b7e76a8-c737-4c8f-9c59-d2f9e28b52c8.webp",
+        "signal": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814044-a8abbf33-277a-41b5-b020-b06d1dd300da.webp",
+        "output": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814052-0c5609b3-5c80-44f5-a790-3aa3ff30bcf3.webp"
       },
       "showcaseTitle": "活动视频制作与大型项目内容支持",
       "showcaseDescription": "展示大型活动、明星内容和现场执行素材，突出人物特写、灯光质感、肤色还原、多机位色彩统一和传播素材判断。",
@@ -368,11 +368,11 @@
           "icon": "Eye"
         }
       ],
-      "videoImage": "/optimized-uploads/1779979623228-b908925d-d74e-4fd8-beae-8ad2faebc055.webp",
+      "videoImage": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779979623228-b908925d-d74e-4fd8-beae-8ad2faebc055.webp",
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779979635763-d92ac771-0590-4a0b-87b2-adeecd8ee37b.webp",
-        "signal": "/optimized-uploads/1779979640821-f4ebcbb9-44a9-45a1-844a-0a6033200f49.webp",
-        "output": "/optimized-uploads/1779979644838-0b90a100-d47c-4ab7-8fdb-3e90c0a353d3.webp"
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779979635763-d92ac771-0590-4a0b-87b2-adeecd8ee37b.webp",
+        "signal": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779979640821-f4ebcbb9-44a9-45a1-844a-0a6033200f49.webp",
+        "output": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779979644838-0b90a100-d47c-4ab7-8fdb-3e90c0a353d3.webp"
       },
       "resultText": "完成多城市户外巡回直播的全流程执行，实现全程零信号中断、零重大技术事故，稳定支撑了复杂户外场景下的直播播出",
       "galleryText": {
@@ -400,11 +400,11 @@
           "icon": "Eye"
         }
       ],
-      "videoImage": "/optimized-uploads/1779895814059-c1ed7098-c85e-4e17-94c5-2fcb9b07af70.webp",
+      "videoImage": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814059-c1ed7098-c85e-4e17-94c5-2fcb9b07af70.webp",
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779895814065-67f94076-58f0-4f28-8a61-6550c72dfd80.webp",
-        "signal": "/optimized-uploads/1779895814080-c3831b9e-fa68-4e35-9748-165e9800038f.webp",
-        "output": "/optimized-uploads/1779895814088-11e892af-beea-4255-9648-e94503f9ac3b.webp"
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814065-67f94076-58f0-4f28-8a61-6550c72dfd80.webp",
+        "signal": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814080-c3831b9e-fa68-4e35-9748-165e9800038f.webp",
+        "output": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814088-11e892af-beea-4255-9648-e94503f9ac3b.webp"
       },
       "showcaseDescription": "不同主题直播的成片画面、导播信号链路与现场执行细节，完整呈现从前期链路搭建、多机位调度到成片输出的全流程技术闭环，",
       "showcaseTitle": "多档明星 / IP 直播项目的技术执行",
@@ -434,11 +434,11 @@
           "icon": "Eye"
         }
       ],
-      "videoImage": "/optimized-uploads/1779895814094-316c101d-7ff4-4019-830f-7c46a266d29e.webp",
+      "videoImage": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814094-316c101d-7ff4-4019-830f-7c46a266d29e.webp",
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779895814101-4e3cc15e-b037-4519-9e51-9842ad4a43a0.webp",
-        "signal": "/optimized-uploads/1779895814108-dda9d710-1870-4e36-832e-92128998f910.webp",
-        "output": "/optimized-uploads/1779895814117-cf87a4c7-dfe4-465e-927c-e60ccd1be466.webp"
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814101-4e3cc15e-b037-4519-9e51-9842ad4a43a0.webp",
+        "signal": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814108-dda9d710-1870-4e36-832e-92128998f910.webp",
+        "output": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814117-cf87a4c7-dfe4-465e-927c-e60ccd1be466.webp"
       },
       "showcaseTitle": "快手平台日常 S 级明星",
       "showcaseDescription": "包含不同主题直播的成片画面、导播信号链路与现场执行细节",
@@ -458,7 +458,7 @@
       "subtitle": "多场景明星直播执行展示",
       "description": "负责直播现场的导播执行与镜头调度，根据项目风格设计镜头语言，保障表演、互动、游戏等环节的完整呈现",
       "group": "celebrity",
-      "image": "/optimized-uploads/1779895814130-9aa871a2-9801-40bd-8388-2b267de31809.webp",
+      "image": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814130-9aa871a2-9801-40bd-8388-2b267de31809.webp",
       "tags": [
         "实时监看推流状态与画面质感，根据现场情况调整技术参数，保障直播全程音画同步、稳定流畅"
       ],
@@ -468,10 +468,10 @@
           "icon": "Eye"
         }
       ],
-      "videoImage": "/optimized-uploads/1779895814138-2cb8289c-8308-4fb7-8f52-8637bca97d76.webp",
+      "videoImage": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814138-2cb8289c-8308-4fb7-8f52-8637bca97d76.webp",
       "galleryImages": {
-        "signal": "/optimized-uploads/1779895814145-b3a3c6e4-ae75-4af3-a53e-3199b1aea883.webp",
-        "output": "/optimized-uploads/1779895814152-2176f95b-54b8-42de-9295-d9eb60c3011b.webp"
+        "signal": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814145-b3a3c6e4-ae75-4af3-a53e-3199b1aea883.webp",
+        "output": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814152-2176f95b-54b8-42de-9295-d9eb60c3011b.webp"
       },
       "showcaseDescription": "不同主题直播的成片画面、导播信号链路与现场执行细节",
       "showcaseTitle": "多场景明星直播合集",
@@ -491,7 +491,7 @@
       "subtitle": "美团「18 会员惊喜日」",
       "description": "快手「18 会员惊喜日」是平台重点商业营销项目，以会员权益发布与福利互动为核心，面临演播室多机位调度、实时互动功能稳定运行、品牌视觉规范落地、高并发用户访问等多重挑战",
       "group": "commerce",
-      "image": "/optimized-uploads/1779960664020-c29d8f21-6973-493e-ab90-2b01ac8264fb.webp",
+      "image": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779960664020-c29d8f21-6973-493e-ab90-2b01ac8264fb.webp",
       "showcaseTitle": "「18 会员惊喜日」",
       "showcaseDescription": "负责快手「18 会员惊喜日」品牌会员权益发布直播的全流程技术执行与影像呈现，",
       "tags": [
@@ -505,8 +505,8 @@
       ],
       "resultText": "实现直播全程零信号中断、零互动功能故障，稳定支撑了高并发场景下的直播播出\n多机位调度与镜头切换流畅自然，完整呈现了品牌直播的所有环节，直播画面符合品牌视觉规范",
       "galleryImages": {
-        "signal": "/optimized-uploads/1779976363086-81143727-b71b-4092-b4f8-920fa805ceae.webp",
-        "output": "/optimized-uploads/1779976409491-84d12398-e9a9-421d-9abd-db01c33e444a.webp"
+        "signal": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779976363086-81143727-b71b-4092-b4f8-920fa805ceae.webp",
+        "output": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779976409491-84d12398-e9a9-421d-9abd-db01c33e444a.webp"
       }
     },
     {
@@ -515,7 +515,7 @@
       "subtitle": "「星光百货・新春派对」",
       "description": "快手「星光百货・新春派对」是平台春节期间重点电商营销 IP，以 “春节不打烊” 为主题，覆盖多场明星带货直播。",
       "group": "commerce",
-      "image": "/optimized-uploads/1779895814159-3a71bbfb-f0ea-4b3b-849b-a5e1f549deb2.webp",
+      "image": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814159-3a71bbfb-f0ea-4b3b-849b-a5e1f549deb2.webp",
       "tags": [
         "主导演播室多场景直播全链路技术方案设计，搭建多机位拍摄、导播切换、信号回传及推流监看系统，适配带货讲解、互动游戏、福利发放等不同环节的需求"
       ],
@@ -525,11 +525,11 @@
           "icon": "Eye"
         }
       ],
-      "videoImage": "/optimized-uploads/1779895814172-00d15cb4-1c68-4e01-ab59-837e5177eb68.webp",
+      "videoImage": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814172-00d15cb4-1c68-4e01-ab59-837e5177eb68.webp",
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779976503932-68db18c5-411b-4721-bd74-7b4a2f94bfd9.webp",
-        "signal": "/optimized-uploads/1779976516883-68048fb9-5b15-49d6-82dd-60b2ab75013d.webp",
-        "output": "/optimized-uploads/1779895814194-863a75b3-b8d7-487f-bd21-1830a6fafc15.webp"
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779976503932-68db18c5-411b-4721-bd74-7b4a2f94bfd9.webp",
+        "signal": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779976516883-68048fb9-5b15-49d6-82dd-60b2ab75013d.webp",
+        "output": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814194-863a75b3-b8d7-487f-bd21-1830a6fafc15.webp"
       },
       "showcaseTitle": "「星光百货」直播执行展示",
       "showcaseDescription": "电商直播的用户端成片画面，包含带货讲解、互动游戏、福利发放等多场景内容",
@@ -546,7 +546,7 @@
       "subtitle": "标准化直播链路搭建与调试体系",
       "description": "电商直播对画面质感、色彩还原、音画同步和信号稳定性有极高要求，不同品类（美妆 / 个护 / 家居）的产品展示需求差异大，同时需要兼顾直播效率与成本控制。",
       "group": "commerce",
-      "image": "/optimized-uploads/1779895814200-9d8bc717-6dcf-4b7c-8c8e-b5f87716c635.webp",
+      "image": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814200-9d8bc717-6dcf-4b7c-8c8e-b5f87716c635.webp",
       "tags": [
         "负责直播演播室的整体搭建，包含机位布置、灯光方案设计、设备选型与安装调试，适配不同品类产品的展示需求"
       ],
@@ -556,11 +556,11 @@
           "icon": "Eye"
         }
       ],
-      "videoImage": "/optimized-uploads/1779895814206-ec7e765f-e6fd-4481-9a07-4cc07cd44c38.webp",
+      "videoImage": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814206-ec7e765f-e6fd-4481-9a07-4cc07cd44c38.webp",
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779895814221-cd0854e5-13a2-4cba-984b-f845ecf7fffc.webp",
-        "signal": "/optimized-uploads/1779895814228-4f1efa59-a7a1-4785-b357-e27812acfa38.webp",
-        "output": "/optimized-uploads/1779895814234-707c5e70-1487-4635-b46e-23e5322f42bc.webp"
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814221-cd0854e5-13a2-4cba-984b-f845ecf7fffc.webp",
+        "signal": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814228-4f1efa59-a7a1-4785-b357-e27812acfa38.webp",
+        "output": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814234-707c5e70-1487-4635-b46e-23e5322f42bc.webp"
       },
       "showcaseTitle": "直播演播室搭建与链路调试展示",
       "showcaseDescription": "包含美妆 / 个护类电商直播的用户端成片画面、演播室布光与机位布置、信号链路拓扑图",
@@ -580,7 +580,7 @@
       "subtitle": "短视频剪辑 / 新媒体内容制作",
       "description": "完成选题理解、素材整理、粗剪精剪、节奏优化、音乐匹配、字幕包装、封面设计和多平台成片输出。",
       "group": "brand",
-      "image": "/optimized-uploads/1779895814242-73a6ec95-14a8-4a4d-bd0c-a7145fb54bc7.webp",
+      "image": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814242-73a6ec95-14a8-4a4d-bd0c-a7145fb54bc7.webp",
       "tags": [
         "完播节奏",
         "封面包装",
@@ -592,11 +592,11 @@
           "icon": "Eye"
         }
       ],
-      "videoImage": "/optimized-uploads/1779977930311-aa784f0c-036b-41c3-a523-3d5a089101af.webp",
+      "videoImage": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779977930311-aa784f0c-036b-41c3-a523-3d5a089101af.webp",
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779977920513-3d71d09e-6d1c-4a1a-becd-f778089f0918.webp",
-        "signal": "/optimized-uploads/1779895814311-e4445943-7c70-49fc-9b17-716b30a7f280.webp",
-        "output": "/optimized-uploads/1779977963626-2f79fe70-1456-4a37-89c2-101a7dbd53bb.webp"
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779977920513-3d71d09e-6d1c-4a1a-becd-f778089f0918.webp",
+        "signal": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814311-e4445943-7c70-49fc-9b17-716b30a7f280.webp",
+        "output": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779977963626-2f79fe70-1456-4a37-89c2-101a7dbd53bb.webp"
       },
       "showcaseDescription": "展示短视频剪辑、账号内容包装、技术科普、器材测评、幕后花絮和平台适配输出。",
       "showcaseTitle": "短视频剪辑 / 新媒体内容制作展示",
@@ -608,7 +608,7 @@
       "subtitle": "《这一刻是主角》系列 IP",
       "description": "《这一刻是主角》是平台重点打造的纪实类 IP 项目，以 “记录平凡人的高光时刻” 为主题，覆盖多场景人物访谈、纪实直播与衍生内容制作。",
       "group": "brand",
-      "image": "/optimized-uploads/1779895814345-ef482985-cb3c-4c9e-8aa3-f5738e39870a.webp",
+      "image": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814345-ef482985-cb3c-4c9e-8aa3-f5738e39870a.webp",
       "tags": [
         "负责系列 IP 项目的直播技术执行，搭建适配不同场景的音视频采集、信号回传及推流监看系统，保障直播全程稳定播出\n统筹现场多机位拍摄与导播执行"
       ],
@@ -618,11 +618,11 @@
           "icon": "Eye"
         }
       ],
-      "videoImage": "/optimized-uploads/1779895814363-7fb35646-50c2-4b27-b01c-2db41969b1a9.webp",
+      "videoImage": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814363-7fb35646-50c2-4b27-b01c-2db41969b1a9.webp",
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779895814378-b17cb3fa-7462-4202-a531-7d47a5d299f6.webp",
-        "signal": "/optimized-uploads/1779895814397-06635eab-27b9-48b7-aac3-284838071a41.webp",
-        "output": "/optimized-uploads/1779895814410-b2468d6d-195a-4c35-a996-c3780c3e6297.webp"
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814378-b17cb3fa-7462-4202-a531-7d47a5d299f6.webp",
+        "signal": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814397-06635eab-27b9-48b7-aac3-284838071a41.webp",
+        "output": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814410-b2468d6d-195a-4c35-a996-c3780c3e6297.webp"
       },
       "showcaseTitle": "《这一刻是主角》",
       "showcaseDescription": "主视觉海报、直播用户端画面与衍生内容素材，完整展示 IP 项目的视觉调性、直播执行效果与用户互动反馈",
@@ -644,11 +644,11 @@
           "icon": "Eye"
         }
       ],
-      "videoImage": "/optimized-uploads/1779895814421-a9a3fe4d-62ea-40de-891f-05c672ad9bcc.webp",
+      "videoImage": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814421-a9a3fe4d-62ea-40de-891f-05c672ad9bcc.webp",
       "galleryImages": {
-        "onsite": "/optimized-uploads/1779895814437-16f846bf-16bd-49a4-b56e-feb30d430671.webp",
-        "signal": "/optimized-uploads/1779895814445-88f9dd36-da06-40a7-8e6b-10831571435f.webp",
-        "output": "/optimized-uploads/1779895814451-dd330c58-f0f7-4ec4-b5b2-0bfea9b73800.webp"
+        "onsite": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814437-16f846bf-16bd-49a4-b56e-feb30d430671.webp",
+        "signal": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814445-88f9dd36-da06-40a7-8e6b-10831571435f.webp",
+        "output": "https://raw.githubusercontent.com/Ryan-9699/zhang-linhao-site/main/public/optimized-uploads/1779895814451-dd330c58-f0f7-4ec4-b5b2-0bfea9b73800.webp"
       },
       "showcaseTitle": "李永乐老师科普课展示",
       "showcaseDescription": "标准化直播间、课程录制与品牌内容画面，从系统搭建、灯光优化、音频降噪到导播流程沉淀的完整执行能力。",

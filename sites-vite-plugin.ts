@@ -29,11 +29,15 @@ export function sites(): Plugin {
       const drizzleSource = resolve(root, "drizzle");
       const clientVideos = resolve(root, "dist", "client", "videos");
       const clientUploads = resolve(root, "dist", "client", "uploads");
+      const clientArchive = resolve(root, "dist", "client", "archive");
+      const clientOptimizedUploads = resolve(root, "dist", "client", "optimized-uploads");
 
       await rm(outputDirectory, { recursive: true, force: true });
       await mkdir(outputDirectory, { recursive: true });
       await rm(clientVideos, { recursive: true, force: true });
       await rm(clientUploads, { recursive: true, force: true });
+      await rm(clientArchive, { recursive: true, force: true });
+      await rm(clientOptimizedUploads, { recursive: true, force: true });
 
       if (await exists(hostingConfig)) {
         await cp(hostingConfig, resolve(outputDirectory, "hosting.json"));
